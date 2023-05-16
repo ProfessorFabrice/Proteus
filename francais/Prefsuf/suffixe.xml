@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proteus SYSTEM "table.dtd">
+<proteus>
+	<flex id="suff-1" type="term">
+		<name>suff</name>
+		<flex id="suff-isme1">
+			<code>\l\/liser/</code>
+		</flex>
+		<flex id="suff-isme1">
+			<code>\re\/é/</code>
+		</flex>
+		<flex id="suff-isme1">
+			<code>\e\/tisme/</code>
+		</flex>
+		<flex id="suff-isme2">
+			<code>\e\/isme/</code>
+		</flex>
+		<flex id="suff-isme3">
+			<code>\y\/isme/</code>
+		</flex>
+		<flex id="suff-isme4">
+			<code>/isme/</code>
+		</flex>
+		<flex id="suff-iste1">
+			<code>\y\/iste/</code>
+		</flex>
+		<flex id="suff-iste2">
+			<code>\e\/iste/</code>
+		</flex>
+		<flex id="suff-iste3">
+			<code>/niste/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/ade/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/age/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/ard/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>/asse/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/able/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\re\/ant/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/éen/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/escent/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/esque/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/estre/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/issime/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/iste/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/ien/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>/ien/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/ique/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/atique/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/isant/</code>
+		</flex>
+		<flex id="suff-ise">
+			<code>\e\/ise/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/tion/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/ation/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/ition/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/inette/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\re\/euse/</code>
+		</flex>
+		<flex id="suff-ade">
+			<code>\e\/itude/</code>
+		</flex>
+		<flex id="suff-ien">
+			<code>\ei\/ien/</code>
+		</flex>
+		<flex id="suff-ienne">
+			<code>\ei\/ienne/</code>
+		</flex>
+		<flex id="suff-al">
+			<code>/al/</code>
+		</flex>
+	</flex>
+</proteus>

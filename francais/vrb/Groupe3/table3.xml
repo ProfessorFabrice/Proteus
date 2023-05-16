@@ -1,0 +1,2071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proteus SYSTEM "table3.dtd">
+<proteus>
+	<flex id="vg3" type="nonterm">
+		<name>Vm</name>
+		<info>troisième groupe</info>
+		<op type="add">
+			<item value="v3ip-1"/>
+			<item value="v3ii"/>
+			<item value="v3ips-1"/>
+			<item value="v3ifs"/>
+		        <item value="v3ic"/>
+			<item value="v3mp-1"/>
+		        <item value="v3sp"/>
+			<item value="v3si-1"/>
+		        <item value="v3pp"/>
+		        <item value="v3ps-1"/>
+		</op>
+	</flex>	
+	<flex id="vg3a" type="nonterm">
+		<name>Vm</name>
+		<info>troisième groupe</info>
+		<op type="add">
+			<item value="v3ip-2"/>
+			<item value="v3ii"/>
+			<item value="v3ips-1"/>
+			<item value="v3ifs"/>
+		        <item value="v3ic"/>
+			<item value="v3mp-2"/>
+		        <item value="v3sp"/>
+			<item value="v3si-1"/>
+		        <item value="v3pp"/>
+		        <item value="v3ps-1"/>
+		</op>
+	</flex>	
+	
+	<flex id="vg3b" type="nonterm">
+		<name>Vm</name>
+		<info>troisième groupe</info>
+		<op type="add">
+			<item value="v3ip-1"/>
+			<item value="v3ii"/>
+			<item value="v3ips-2"/>
+			<item value="v3ifs"/>
+		    <item value="v3ic"/>
+			<item value="v3mp-1"/>
+		    <item value="v3sp"/>
+			<item value="v3si-2"/>
+		    <item value="v3pp"/>
+		    <item value="v3ps-2"/>
+		</op>
+	</flex>	
+	<flex id="vg3c" type="nonterm">
+		<name>Vm</name>
+		<info>troisième groupe</info>
+		<op type="add">
+			<item value="v3ip-3"/>
+			<item value="v3ii"/>
+			<item value="v3ips-2"/>
+			<item value="v3ifs"/>
+		    <item value="v3ic"/>
+			<item value="v3mp-3"/>
+		    <item value="v3sp"/>
+			<item value="v3si-2"/>
+		    <item value="v3pp"/>
+		    <item value="v3ps-2"/>
+		</op>
+	</flex>	
+	<flex id="vg3d" type="nonterm">
+		<name>Vm</name>
+		<info>troisième groupe</info>
+		<op type="add">
+			<item value="v3ip-1"/>
+			<item value="v3ii"/>
+			<item value="v3ips-3"/>
+			<item value="v3ifs"/>
+		        <item value="v3ic"/>
+			<item value="v3mp-1"/>
+		        <item value="v3sp"/>
+			<item value="v3si-3"/>
+		        <item value="v3pp"/>
+		        <item value="v3ps-3"/>
+		</op>
+	</flex>	
+	<flex id="vg3e" type="nonterm">
+		<name>Vm</name>
+		<info>troisième groupe</info>
+		<op type="add">
+			<item value="v3ip-4"/>
+			<item value="v3ii"/>
+			<item value="v3ips-1"/>
+			<item value="v3ifs"/>
+		    <item value="v3ic"/>
+			<item value="v3mp-1"/>
+		    <item value="v3sp"/>
+			<item value="v3si-1"/>
+		    <item value="v3pp"/>
+		    <item value="v3ps-1"/>
+		</op>
+	</flex>	
+	<flex id="vg3e2" type="nonterm">
+		<name>Vm</name>
+		<info>troisième groupe</info>
+		<op type="add">
+			<item value="v3ip-4"/>
+			<item value="v3ii"/>
+			<item value="v3ips-1"/>
+			<item value="v3ifs"/>
+		    <item value="v3ic"/>
+			<item value="v3mp-1"/>
+		    <item value="v3sp"/>
+			<item value="v3si-1"/>
+		    <item value="v3pp"/>
+		    <item value="v3ps-2"/>
+		</op>
+	</flex>	
+	<flex id="vg3f" type="nonterm">
+		<name>Vm</name>
+		<info>troisième groupe</info>
+		<op type="add">
+			<item value="v3ip-3"/>
+			<item value="v3ii"/>
+			<item value="v3ips-1"/>
+			<item value="v3ifs"/>
+		        <item value="v3ic"/>
+			<item value="v3mp-3"/>
+		        <item value="v3sp"/>
+			<item value="v3si-1"/>
+		        <item value="v3pp"/>
+		        <item value="v3ps-1"/>
+		</op>
+	</flex>	
+	<flex id="vg3g" type="nonterm">
+		<name>Vm</name>
+		<info>troisième groupe</info>
+		<op type="add">
+			<item value="v3ip-5"/>
+			<item value="v3ii"/>
+			<item value="v3ips-1"/>
+			<item value="v3ifs"/>
+		        <item value="v3ic"/>
+			<item value="v3mp-1"/>
+		        <item value="v3sp"/>
+			<item value="v3si-1"/>
+		        <item value="v3pp"/>
+		        <item value="v3ps-1"/>
+		</op>
+	</flex>	
+	<flex id="vg3h" type="nonterm">
+		<name>Vm</name>
+		<info>troisième groupe</info>
+		<op type="add">
+			<item value="v3ip-4"/>
+			<item value="v3ii"/>
+			<item value="v3ips-2"/>
+			<item value="v3ifs"/>
+		        <item value="v3ic"/>
+			<item value="v3mp-1"/>
+		        <item value="v3sp"/>
+			<item value="v3si-2"/>
+		        <item value="v3pp"/>
+		        <item value="v3ps-2"/>
+		</op>
+	</flex>	
+	<flex id="VG3-1" type="final">
+		<name></name>
+		<info>verbe en "er"</info>
+		<op type="mask" value="vg3d">
+		<item value="m_aller"/>		
+		<item value="m_std"/>
+		<item value="m_aller_std"/>
+		</op>
+	</flex>
+       <flex id="VG3-2" type="final">
+		<name></name>
+		<info>verbe en "rir"</info>
+		<op type="mask" value="vg3a">
+			<item value="m_couvrir"/>
+		        <item value="m_rir"/>
+			<item value="m_std2"/>
+	                <item value="m_couvrir_std"/>
+			</op>
+	</flex>
+	<flex id="VG3-2-1" type="final">
+		<name></name>
+		<info>verbe en "rir"</info>
+		<op type="mask" value="vg3a">
+			<item value="m_rir"/>
+			<item value="m_std2"/>
+	               </op>
+	</flex>
+	<flex id="VG3-3" type="final">
+		<name></name>
+		<info>verbe en "lir"</info>
+		<op type="mask" value="vg3a">
+			<item value="m_std2"/>
+			<item value="m_lir"/>
+	</op>
+	</flex>
+	<flex id="VG3-2-2" type="final">
+		<name></name>
+		<info>verbe en "llir"</info>
+		<op type="mask" value="vg3">
+	        <item value="m_llir"/>
+	        <item value="m_std2"/>
+	        <item value="m_llir_std"/>
+	        <item value="m_rir"/>
+	 </op>
+	</flex>
+	<flex id="VG3-4" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3b">
+			<item value="m_devoir"/>
+			<item value="m_std3"/>
+			<item value="m_devoir_std"/>
+			</op>
+	</flex>
+	<flex id="VG3-5" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3">
+		<item value="m_voir"/>	
+		<item value="m_std3"/>
+		<item value="m_voir_reg"/>	
+		</op>
+	</flex>
+	<flex id="VG3-5-1" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_std3"/>	
+		<item value="m_pourvoir"/>
+		<item value="m_oi_std"/>
+		<item value="m_voir_reg"/>	
+		</op>
+	</flex>
+	
+	<flex id="VG3-6" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_savoir"/>	
+		<item value="m_std3"/>
+		<item value="m_savoir_std"/>	
+		</op>
+	</flex>
+	<flex id="VG3-7" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_recevoir"/>	
+		<item value="m_std3"/>
+		<item value="m_recevoir_std"/>	
+		</op>
+	</flex>
+	<flex id="VG3-8" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3c">
+		<item value="m_pouvoir"/>	
+		<item value="m_std3"/>
+		<item value="m_pouvoir_std"/>	
+		</op>
+	</flex>
+	<flex id="VG3-9" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_mouvoir"/>	
+		<item value="m_std3"/>
+		<item value="m_mouvoir_std"/>	
+		</op>
+	</flex>
+	<flex id="VG3-10" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3c">
+		<item value="m_vouloir"/>	
+		<item value="m_std3"/>
+		<item value="m_vouloir_std"/>	
+		</op>
+	</flex>
+	<flex id="VG3-11" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3c">
+		<item value="m_valoir"/>	
+		<item value="m_std3"/>
+		<item value="m_valoir_std"/>	
+		</op>
+	</flex>
+       <flex id="VG3-12" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_avoir"/>	
+		<item value="m_std3"/>	
+		<item value="m_avoir_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-13" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_defectif"/>
+		<item value="m_pleuvoir"/>
+		<item value="m_std3"/>	
+		<item value="m_pleuvoir_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-13-1" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_defectif"/>
+		<item value="m_falloir"/>
+		<item value="m_std3"/>	
+		<item value="m_falloir_std"/>
+		</op>
+	</flex>
+	
+	<flex id="VG3-14" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3">
+		<item value="m_asseoir"/>
+		<item value="m_std3"/>	
+		<item value="m_asseoir_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-14-1" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3e">
+		<item value="m_asseoir2"/>
+		<item value="m_std3"/>	
+		<item value="m_asseoir2_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-15" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3e">
+		<item value="m_seoir"/>
+		<item value="m_std3"/>	
+		<item value="m_seoir_std"/>
+		<item value="m_imp_std"/>
+		</op>
+	</flex>
+	
+	<flex id="VG3-16" type="final">
+		<name></name>
+		<info>verbe en "ir"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_std2"/>		
+		<item value="m_tenir"/>
+		
+		</op>
+	</flex>
+	<flex id="VG3-17" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_etre"/>		
+		<item value="m_std4"/>
+		<item value="m_etre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-18" type="final">
+		<name></name>
+		<info>verbe en "ir"</info>
+		<op type="mask" value="vg3">
+		<item value="m_acquerir"/>
+		<item value="m_std2"/>
+	        <item value="m_acquerir_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-2-3" type="final">
+		<name></name>
+		<info>verbe en "ir"</info>
+		<op type="mask" value="vg3">
+		<item value="m_sentir"/>
+		<item value="m_std2"/>
+	        <item value="m_sentir_std"/>
+		<item value="m_rir"/>
+		</op>
+	</flex>
+	<flex id="VG3-2-4" type="final">
+		<name></name>
+		<info>verbe en "ir"</info>
+		<op type="mask" value="vg3">
+		<item value="m_vetir"/>
+		<item value="m_std2"/>
+		<item value="m_vetir_std"/>
+		<item value="m_rir"/>
+		</op>
+	</flex>
+	<flex id="VG3-2-5" type="final">
+		<name></name>
+		<info>verbe en "ir"</info>
+		<op type="mask" value="vg3f">
+		<item value="m_faillir"/>
+		<item value="m_std2"/>
+		<item value="m_faillir_std"/>
+		<item value="m_rir"/>
+		</op>
+	</flex>
+	<flex id="VG3-2-6" type="final">
+		<name></name>
+		<info>verbe en "ir"</info>
+		<op type="mask" value="vg3">
+		<item value="m_dormir"/>
+		<item value="m_std2"/>
+	        <item value="m_dormir_std"/>
+		<item value="m_rir"/>
+		</op>
+	</flex>
+	<flex id="VG3-19" type="final">
+		<name></name>
+		<info>verbe en "ir"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_std2"/>
+	        
+		</op>
+	</flex>
+	<flex id="VG3-20" type="final">
+		<name></name>
+		<info>verbe en "ir"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_mourir"/>
+		<item value="m_std2"/>
+		<item value="m_mourir_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-2-7" type="final">
+		<name></name>
+		<info>verbe en "ir"</info>
+		<op type="mask" value="vg3">
+		<item value="m_servir"/>
+		<item value="m_std2"/>
+	        <item value="m_servir_std"/>
+		<item value="m_rir"/>
+		</op>
+	</flex>
+	<flex id="VG3-2-8" type="final">
+		<name></name>
+		<info>verbe en "ir"</info>
+		<op type="mask" value="vg3">
+		<item value="m_fuir"/>
+		<item value="m_std2"/>
+		<item value="m_rir"/>
+		</op>
+	</flex>
+	<flex id="VG3-21" type="final">
+		<name></name>
+		<info>verbe en "ïr"</info>
+		<op type="mask" value="vg3">
+		<item value="m_ouir"/>
+		<item value="m_std2_1"/>
+		<item value="m_ouir_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-15-1" type="final">
+		<name></name>
+		<info>verbe en "ir"</info>
+		<op type="mask" value="vg3">
+		<item value="m_gesir"/>
+		<item value="m_std2"/>
+		<item value="m_gesir_std"/>
+		<item value="m_imp_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-22" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3">
+		<item value="m_surseoir"/>
+		<item value="m_std3"/>	
+		<item value="m_surseoir_std"/>
+		<item value="m_oi_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-22-1" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_choir"/>
+		<item value="m_std3"/>	
+		<item value="m_oi_std"/>
+		<item value="m_imp_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-22-2" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_dechoir"/>
+		<item value="m_std3"/>	
+		<item value="m_oi_std"/>
+		<item value="m_imp_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-15-2" type="final">
+		<name></name>
+		<info>verbe en "oir"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_echoir"/>
+		<item value="m_std3"/>	
+		<item value="m_imp_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-23" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3e">
+		<item value="m_rendre"/>
+		<item value="m_std4"/>	
+		<item value="m_dre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-23-1" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3e">
+		<item value="m_prendre"/>
+		<item value="m_std4"/>	
+		<item value="m_prendre_std"/>
+		<item value="m_dre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-23-2" type="final">
+		<name></name>
+		<info>verbe en "re" (ajout pour "perdre")</info>
+		<op type="mask" value="vg3e2">
+		<item value="m_rendre"/>
+		<item value="m_std4"/>	
+		<item value="m_dre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-24" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+		<item value="m_battre"/>
+		<item value="m_std4"/>	
+		<item value="m_tre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-24-1" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+		<item value="m_mettre"/>
+		<item value="m_std4"/>	
+		<item value="m_tre_std"/>
+		<item value="m_mettre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-25" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+		<item value="m_indre"/>
+		<item value="m_std4"/>	
+		<item value="m_indre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-26" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3g">
+		<item value="m_vaincre"/>
+		<item value="m_std4"/>	
+		<item value="m_vaincre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-27" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+		<item value="m_traire"/>
+		<item value="m_std4"/>	
+		<item value="m_traire_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-28" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+		<item value="m_aire_std"/>
+		<item value="m_faire"/>
+		<item value="m_std4"/>
+		<item value="m_faire_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-28-1" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_s_std"/>
+		<item value="m_plaire"/>
+		<item value="m_aire_std"/>
+		<item value="m_std4"/>
+		<item value="m_plaire_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-29" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3b">
+		<item value="m_aitre"/>
+		<item value="m_connaitre"/>
+		<item value="m_std4"/>
+		<item value="m_connaitre_std"/>
+		<item value="m_aitre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-29-1" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+		<item value="m_aitre"/>
+		<item value="m_naitre"/>
+		<item value="m_std4"/>
+		<item value="m_naitre_std"/>
+		<item value="m_aitre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-29-2" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+		<item value="m_aitre"/>
+		<item value="m_paitre"/>
+		<item value="m_std4"/>
+		<item value="m_aitre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-30" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3b">
+	        <item value="m_croitre"/>
+		<item value="m_std4"/>
+		<item value="m_croitre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-31" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3b">
+	        <item value="m_croire"/>
+		<item value="m_std4"/>
+		<item value="m_croire_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-32" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3b">
+	        <item value="m_boire"/>
+		<item value="m_std4"/>
+		<item value="m_boire_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-33" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+	        <item value="m_s_std"/>
+		<item value="m_clore"/>
+		<item value="m_std4"/>
+		<item value="m_clore_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-34" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3b">
+	        <item value="m_clure"/>
+		<item value="m_std4"/>
+		<item value="m_clure_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-35" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+	        <item value="m_absoudre"/>
+		<item value="m_std4"/>
+		<item value="m_absoudre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-36" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3e">
+		<item value="m_coudre"/>
+		<item value="m_std4"/>
+		<item value="m_coudre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-37" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3h">
+	        <item value="m_moudre"/>
+		<item value="m_std4"/>
+		<item value="m_moudre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-38" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+	        <item value="m_suivre"/>
+		<item value="m_std4"/>
+		<item value="m_suivre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-38-1" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3b">
+	        <item value="m_vivre"/>
+		<item value="m_suivre"/>
+		<item value="m_std4"/>
+		<item value="m_suivre_std"/>
+		<item value="m_vivre_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-28-2" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3b">
+	        <item value="m_s_std"/>
+		<item value="m_lire"/>
+		<item value="m_aire_std"/>
+		<item value="m_std4"/>
+		<item value="m_lire_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-28-3" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+	        <item value="m_s_std"/>
+		<item value="m_dire"/>
+		<item value="m_aire_std"/>
+		<item value="m_std4"/>
+		<item value="m_dire_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-39" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+	        <item value="m_rire"/>
+		<item value="m_std4"/>
+		<item value="m_dire_std"/>
+		</op>
+	</flex>
+	<flex id="VG3-40" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+	        <item value="m_ecrire"/>
+		<item value="m_std4"/>
+		</op>
+	</flex>
+	<flex id="VG3-41" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+	        <item value="m_confire"/>
+		<item value="m_s_std"/>
+		<item value="m_ire_std"/>
+		<item value="m_aire_std"/>
+		<item value="m_std4"/>
+		<item value="m_dire_std"/>
+		
+		</op>
+	</flex>
+	<flex id="VG3-41-1" type="final">
+		<name></name>
+		<info>verbe en "re"</info>
+		<op type="mask" value="vg3">
+	        <item value="m_cuire"/>
+		<item value="m_s_std"/>
+		<item value="m_ire_std"/>
+		<item value="m_aire_std"/>
+		<item value="m_std4"/>
+		</op>
+	</flex>
+	<mask id="m_std">
+		<info>on enleve "er" a la fin comme aller</info>
+		<item ervalue=".">]/\\re\\/[</item>
+        </mask>
+	<mask id="m_std2">
+		<info>on enleve "ir" a la fin comme couvrir</info>
+		<item ervalue=".">]/\\ri\\/[</item>
+        </mask>
+	<mask id="m_std2_1">
+		<info>on enleve "ïr" a la fin</info>
+		<item ervalue=".">]/\\rï\\/[</item>
+        </mask>
+	<mask id="m_std3">
+		<info>on enleve "oir" a la fin comme devoir</info>
+		<item ervalue=".">]/\\rio\\/[</item>
+        </mask>
+	
+	<mask id="m_std4">
+		<info>on enleve "re" a la fin comme prendre</info>
+		<item ervalue=".">]/\\er\\/[</item>
+        </mask>
+	<mask id="m_imp_std">
+		<info>pas d'impératif</info>
+		<item ervalue="v3mp-1\.p2ns">]S/RS/</item>
+	        <item ervalue="v3mp-1\.p[12]np">]S/RS/</item>
+	</mask>
+	<mask id="m_defectif">
+		<info>defectifs à toutes les pers sauf 3psing</info>
+		<item ervalue="v3ip-1\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3ip-1\.p3np">]S/RS/</item>
+		<item ervalue="v3ii\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3ii\.p3np">]S/RS/</item>
+		<item ervalue="v3ips-2\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3ips-2\.p3np">]S/RS/</item>
+		<item ervalue="v3ifs\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3ifs\.p3np">]S/RS/</item>
+		<item ervalue="v3ic\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3ic\.p3np">]S/RS/</item>
+		<item ervalue="v3mp-1\.p[123]n[sp]">]S/RS/</item>
+	        <item ervalue="v3sp\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3sp\.p3np">]S/RS/</item>
+		<item ervalue="v3si-2\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3si-2\.p3np">]S/RS/</item>
+	</mask>
+	<mask id="m_oi_std">
+		<info>on rejoute "oi" au futur de l'ind et conditionnel</info>
+		<item ervalue="v3ifs\.p[12]ns">4P/oi/[</item>
+		<item ervalue="v3ifs\.p3ns">3P/oi/[</item>
+                <item ervalue="v3ifs\.p[13]np">5P/oi/[</item>
+	        <item ervalue="v3ifs\.p2np">4P/oi/[</item>
+	        <item ervalue="v3ic\.p[123]ns">5P/oi/[</item>
+		<item ervalue="v3ic\.p3np">7P/oi/[</item>
+                <item ervalue="v3ic\.p1np">6P/oi/[</item>
+	        <item ervalue="v3ic\.p2np">5P/oi/[</item>
+	</mask>
+	<mask id="m_rir">
+		<info>comme couvrir, "i" au futur de l'ind et au conditionnel</info>
+		<item ervalue="v3ifs\.p[12]ns">4P/i/[</item>
+                <item ervalue="v3ifs\.p3ns">3P/i/[</item>
+		<item ervalue="v3ifs\.p[13]np">5P/i/[</item>
+		<item ervalue="v3ifs\.p2np">4P/i/[</item>
+	        <item ervalue="v3ic\.p[123]ns">5P/i/[</item>
+                <item ervalue="v3ic\.p2np">5P/i/[</item>
+		<item ervalue="v3ic\.p1np">6P/i/[</item>
+		<item ervalue="v3ic\.p3np">7P/i/[</item>
+	</mask>
+	<mask id="m_couvrir">
+		<info>comme couvrir</info>
+		<item ervalue="v3pps-1\.p1ns">]S/\\r\\\/ert\//</item>
+	</mask>
+	<mask id="m_couvrir_std">
+		<item ervalue="v3pps-1\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_lir">
+		<info>comme cueillir</info>
+		<item ervalue="v3ifs\.p[12]ns">4P/e/[</item>
+                <item ervalue="v3ifs\.p3ns">3P/e/[</item>
+		<item ervalue="v3ifs\.p[13]np">5P/e/[</item>
+		<item ervalue="v3ifs\.p2np">4P/e/[</item>
+		<item ervalue="v3ic\.p[123]ns">5P/e/[</item>
+                <item ervalue="v3ic\.p1np">6P/e/[</item>
+		<item ervalue="v3ic\.p2np">5P/e/[</item>
+		<item ervalue="v3ic\.p3np">7P/e/[</item>
+	</mask>
+	<mask id="m_llir">
+		<info>comme bouillir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\lli\\/[</item>
+		<item ervalue="v3mp-1\.p2ns">]/\\lli\\/[</item>
+	</mask>
+	<mask id="m_llir_std">
+		<info>comme bouillir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]5D2E[</item>
+	        <item ervalue="v3mp-1\.p2ns">]5D2E[</item>
+	</mask>
+	<mask id="m_devoir">
+		<info>comme devoir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\ve\\/D/oi/[</item>
+		<item ervalue="v3ip-1\.p3np">]/\\ve\\/D/oi/[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]/\\ve\\/[</item>
+		<item ervalue="v3mp-1\.p2ns">]/\\ve\\/D/oi/[</item>
+                <item ervalue="v3si-2\.p[123]n[sp]">]/\\ve\\/[</item>
+	        <item ervalue="v3sp\.p[123]ns">]/P\\e\\\/oi\/D/[</item>
+	        <item ervalue="v3sp\.p3np">]/P\\e\\\/oi\/D/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]S/\\ve\\\/û\//</item>
+	</mask>
+	<mask id="m_devoir_std">
+		<info>comme devoir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]6D2E[</item>
+		<item ervalue="v3ip-1\.p3np">]6D2E[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3mp-1\.p2ns">]6D2E[</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]6D2E[</item>
+	</mask>	
+	<mask id="m_voir_reg">
+		<info>comme voir</info>
+		<item ervalue="v3ip-1\.p[123]ns">2P/oi/[</item>
+	        <item ervalue="v3ip-1\.p1np">4P/oy/[</item>
+		<item ervalue="v3ip-1\.p2np">3P/oy/[</item>
+	        <item ervalue="v3ip-1\.p3np">4P/oi/[</item>
+	        <item ervalue="v3ii\.p[123]ns">4P/oy/[</item>
+	        <item ervalue="v3ii\.p3np">6P/oy/[</item>
+	        <item ervalue="v3ii\.p1np">5P/oy/[</item>
+	        <item ervalue="v3ii\.p2np">4P/oy/[</item>
+	        <item ervalue="v3mp-1\.p2ns">2P/oi/[</item>
+	        <item ervalue="v3mp-1\.p1np">4P/oy/[</item>
+		<item ervalue="v3mp-1\.p2np">3P/oy/[</item>
+	        <item ervalue="v3sp\.p[13]ns">2P/oi/[</item>
+	         <item ervalue="v3sp\.p2ns">3P/oi/[</item>
+		<item ervalue="v3sp\.p1np">5P/oy/[</item>
+		<item ervalue="v3sp\.p2np">4P/oy/[</item>
+	        <item ervalue="v3sp\.p3np">4P/oi/[</item>
+		
+	</mask>
+	<mask id="m_voir">
+		<info>comme voir</info>
+		
+	        <item ervalue="v3ifs\.p[12]ns">4P/er/[</item>
+	        <item ervalue="v3ifs\.p3ns">3P/er/[</item>
+	        <item ervalue="v3ifs\.p[13]np">5P/er/[</item>
+	        <item ervalue="v3ifs\.p2np">4P/er/[</item>
+	        <item ervalue="v3ic\.p[123]ns">5P/er/[</item>
+	        <item ervalue="v3ic\.p1np">6P/er/[</item>
+	        <item ervalue="v3ic\.p2np">5P/er/[</item>
+	        <item ervalue="v3ic\.p3np">7P/er/[</item>
+		<item ervalue="v3pp\.p1ns">]S/\/oyant\//</item>
+		<item ervalue="v3pps-1\.p1ns">]S/\/u\//</item>
+	</mask>
+	<mask id="m_savoir">
+		<info>comme savoir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\v\\/D/i/[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]/\\v\\/D/u/[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]/\\va\\/[</item>
+		<item ervalue="v3mp-1\.p2ns">]/\\v\\/D/i/[</item>
+		<item ervalue="v3ic\.p[123]n[sp]">]/\\v\\/D/u/[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]/\\v\\/D/ch/[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]/\\va\\/[</item>
+                <item ervalue="v3pp\.p1ns">]/\\v\\/D/ch/[</item>
+		<item ervalue="v3pps-2\.p1ns">]/\\va\\/[</item>
+	</mask>
+	<mask id="m_savoir_std">
+		<info>comme savoir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]6D2E[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3ips-2\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3mp-1\.p2ns">]6D2E[</item>
+		<item ervalue="v3ic\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]6D2E[</item>
+		<item ervalue="v3pps-2\.p1ns">]6D2E[</item>
+	</mask>
+	<mask id="m_pourvoir">
+		<info>comme pourvoir</info>
+		<item ervalue="v3pp\.p1ns">4P/oy/[</item>
+	</mask>
+	<mask id="m_recevoir">
+		<info>comme recevoir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\vec\\/D/çoi/[</item>
+		<item ervalue="v3ip-1\.p3np">]/\\vec\\/D/çoi/[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]/\\vec\\/D/ç/[</item>
+	        <item ervalue="v3mp-1\.p2ns">]/\\vec\\/D/çoi/[</item>
+	        <item ervalue="v3sp\.p[123]ns">]/P\\ec\\\/çoi\/D/[</item>
+		<item ervalue="v3sp\.p3np">]/P\\ec\\\/çoi\/D/[</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]/\\vec\\/D/ç/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]/\\vec\\/D/ç/[</item>
+	</mask>
+	<mask id="m_recevoir_std">
+		<info>comme recevoir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]6D2E[</item>
+		<item ervalue="v3ip-1\.p3np">]6D2E[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3mp-1\.p2ns">]6D2E[</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]6D2E[</item>
+	</mask>
+	<mask id="m_pouvoir">
+		<info>comme pouvoir</info>
+		<item ervalue="v3ip-3\.p[123]ns">]/\\vuo\\/D/eu/[</item>
+		<item ervalue="v3ip-3\.p3np">]/\\vuo\\/D/euv/[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]/\\vuo\\/[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]/\\v\\/D/r/[</item>
+	        <item ervalue="v3mp-3\.p2ns">]/\\vuo\\/D/eu/[</item>
+	        <item ervalue="v3ic\.p[123]n[sp]">]/\\v\\/D/r/[</item>	
+	        <item ervalue="v3sp\.p[123]n[sp]">]/\\vuo\\/D/uiss/[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]/\\vou\\/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]/\\vuo\\/[</item>
+	</mask>
+	<mask id="m_pouvoir_std">
+		<info>comme pouvoir</info>
+		<item ervalue="v3ip-3\.p[123]ns">]6D2E[</item>
+		<item ervalue="v3ip-3\.p3np">]6D2E[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3mp-3\.p2ns">]6D2E[</item>
+		<item ervalue="v3ic\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]6D2E[</item>
+	</mask>
+	
+	<mask id="m_mouvoir">
+		<info>comme mouvoir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\vuo\\/D/eu/[</item>
+	        <item ervalue="v3ip-1\.p3np">]/2P\\o\\\/e\/2D/[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]/\\vuo\\/[</item>
+		<item ervalue="v3mp-1\.p2ns">]/\\vuo\\/D/eu/[</item>
+		<item ervalue="v3sp\.p[123]ns">]/2P\\o\\\/e\/2D/[</item>
+		<item ervalue="v3sp\.p3np">]/2P\\o\\\/e\/2D/[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]/\\vuo\\/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]S/\\vuo\\\/û\//</item>
+	</mask>
+	<mask id="m_mouvoir_std">
+		<info>comme mouvoir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]6D2E[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3mp-1\.p2ns">]6D2E[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]6D2E[</item>
+	</mask>
+	<mask id="m_vouloir">
+		<info>comme vouloir</info>
+		<item ervalue="v3ip-3\.p[123]ns">]/\\luo\\/D/eu/[</item>
+		<item ervalue="v3ip-3\.p3np">]/\\luo\\/D/eul/[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]/\\l\\/D/d/[</item>
+	        <item ervalue="v3ic\.p[123]n[sp]">]/\\l\\/D/d/[</item>
+		<item ervalue="v3mp-3\.p2ns">]/\\luo\\/D/eu/[</item>
+	        <item ervalue="v3sp\.p[123]ns">]/\\luo\\/D/euill/[</item>
+		<item ervalue="v3sp\.p3np">]/\\luo\\/D/euill/[</item>
+	</mask>
+	<mask id="m_vouloir_std">
+		<item ervalue="v3ip-3\.p[123]ns">]6D2E[</item>
+		<item ervalue="v3ip-3\.p3np">]6D2E[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3ic\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3mp-3\.p2ns">]6D2E[</item>
+	        <item ervalue="v3sp\.p[123]ns">]6D2E[</item>
+		<item ervalue="v3sp\.p3np">]6D2E[</item>
+	</mask>
+	<mask id="m_valoir">
+		<info>comme valoir</info>
+		<item ervalue="v3ip-3\.p[123]ns">]/\\l\\/D/u/[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]/\\l\\/D/ud/[</item>
+	        <item ervalue="v3ic\.p[123]n[sp]">]/\\l\\/D/ud/[</item>
+	        <item ervalue="v3mp-3\.p2ns">]/\\l\\/D/u/[</item>
+	        <item ervalue="v3sp\.p[123]ns">]/\\l\\/D/ill/[</item>
+		<item ervalue="v3sp\.p3np">]/\\l\\/D/ill/[</item>
+	</mask>
+	<mask id="m_valoir_std">
+		<info>comme valoir</info>
+		<item ervalue="v3ip-3\.p[123]ns">]6D2E[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3ic\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3mp-3\.p2ns">]6D2E[</item>
+	        <item ervalue="v3sp\.p[123]ns">]6D2E[</item>
+		<item ervalue="v3sp\.p3np">]6D2E[</item>
+	</mask>
+	<mask id="m_aller">
+		<info>comme aller</info>
+		<item ervalue="v3ip-1\.p1ns">]/\\lla\\/D/vai/[</item>
+		<item ervalue="v3ip-1\.p2ns">]/\\lla\\/D/va/[</item>
+		<item ervalue="v3ip-1\.p3ns">]S/\\lla\\\/va\//</item>
+		<item ervalue="v3ip-1\.p3np">]S/\\lla\\\/vont\//</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]/\\lla\\/D/i/[</item>
+	        <item ervalue="v3ic\.p[123]n[sp]">]/\\lla\\/D/i/[</item>
+	        <item ervalue="v3mp-1\.p2ns">]S/\\lla\\\/va\//</item>
+	        <item ervalue="v3sp\.p[123]ns">]/2P\/i\/2D/[</item>
+		<item ervalue="v3sp\.p3np">]/2P\/i\/2D/[</item>
+	</mask>
+	<mask id="m_aller_std">
+		<info>comme aller</info>
+		<item ervalue="v3ip-1\.p[123]ns">]5D2E[</item>
+		<item ervalue="v3ip-1\.p3np">]5D2E[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3ic\.p[123]n[sp]">]5D2E[</item>
+	</mask>
+	<mask id="m_tenir">
+		<info>comme tenir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/4P\/i\/4D/[</item>
+		<item ervalue="v3ip-1\.p3np">]S/\\rine\\\/iennent\//</item>
+		<item ervalue="v3ips-2\.p[12]ns">]S/\\rine\\\/ins\//</item>
+		<item ervalue="v3ips-2\.p3ns">]S/\\rine\\\/int\//</item>
+		<item ervalue="v3ips-2\.p1np">]S/\\rine\\\/înmes\//</item>
+		<item ervalue="v3ips-2\.p2np">]S/\\rine\\\/întes\//</item>
+		<item ervalue="v3ips-2\.p3np">]S/\\rine\\\/inrent\//</item>
+		<item ervalue="v3ifs\.p1ns">]S/\\rine\\\/iendrai\//</item>
+		<item ervalue="v3ifs\.p2ns">]S/\\rine\\\/iendras\//</item>
+		<item ervalue="v3ifs\.p3ns">]S/\\rine\\\/iendra\//</item>
+		<item ervalue="v3ifs\.p1np">]S/\\rine\\\/iendrons\//</item>
+		<item ervalue="v3ifs\.p2np">]S/\\rine\\\/iendrez\//</item>
+		<item ervalue="v3ifs\.p3np">]S/\\rine\\\/iendront\//</item>
+	        <item ervalue="v3ic\.p[12]ns">]S/\\rine\\\/iendrais\//</item>
+		<item ervalue="v3ic\.p3ns">]S/\\rine\\\/iendrait\//</item>
+		<item ervalue="v3ic\.p1np">]S/\\rine\\\/iendrions\//</item>
+		<item ervalue="v3ic\.p2np">]S/\\rine\\\/iendriez\//</item>
+		<item ervalue="v3ic\.p3np">]S/\\rine\\\/iendraient\//</item>	
+	        <item ervalue="v3mp-1\.p2ns">]/4P\/i\/4D/[</item>
+	        <item ervalue="v3sp\.p[13]ns">]S/\\rine\\\/ienne\//</item>
+	        <item ervalue="v3sp\.p2ns">]S/\\rine\\\/iennes\//</item>
+		<item ervalue="v3sp\.p3np">]S/\\rine\\\/iennent\//</item>
+	        <item ervalue="v3si-2\.p1ns">]S/\\rine\\\/insse\//</item>
+		<item ervalue="v3si-2\.p2ns">]S/\\rine\\\/insses\//</item>
+		<item ervalue="v3si-2\.p3ns">]S/\\rine\\\/înt\//</item>
+		<item ervalue="v3si-2\.p1np">]S/\\rine\\\/inssions\//</item>
+		<item ervalue="v3si-2\.p2np">]S/\\rine\\\/inssiez\//</item>
+		<item ervalue="v3si-2\.p3np">]S/\\rine\\\/inssent\//</item>
+	</mask>
+	<mask id="m_avoir">
+	<info>verbe avoir</info>
+	        <item ervalue="v3ip-1\.p1ns">]S/\\va\\\/ai\//</item>
+	        <item ervalue="v3ip-1\.p2ns">]S/\\va\\\/as\//</item>	
+	        <item ervalue="v3ip-1\.p3ns">]S/\\va\\\/a\//</item>
+                <item ervalue="v3ip-1\.p3np">]S/\\va\\\/ont\//</item>	
+	        <item ervalue="v3ips-2\.p[123]n[sp]">]/\\va\\/D/e/[</item>	
+                <item ervalue="v3ifs\.p[123]n[sp]">]/\\v\\/D/u/[</item>
+	        <item ervalue="v3ic\.p[123]n[sp]">]/\\v\\/D/u/[</item>
+	        <item ervalue="v3mp-1\.p2ns">]S/\\v\\\/ie\//</item>
+	        <item ervalue="v3mp-1\.p[12]np">]/\\v\\/D/y/[</item>
+	        <item ervalue="v3sp\.p[12]ns">]/\\v\\/D/i/[</item>
+	        <item ervalue="v3sp\.p3ns">]S/\\v\\\/it\//</item>
+		<item ervalue="v3sp\.p1np">]S/\\v\\\/yons\//</item>
+		<item ervalue="v3sp\.p2np">]S/\\v\\\/yez\//</item>
+		<item ervalue="v3sp\.p3np">]/\\v\\/D/i/[</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]/\\va\\/D/e/[</item>
+                <item ervalue="v3pp\.p1ns">]/\\v\\/D/y/[</item>
+		<item ervalue="v3pps-2\.p1ns">]S/\\va\\\/eu\//</item>
+	</mask>
+	<mask id="m_avoir_std">
+		<info>comme avoir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]6D2E[</item>
+		<item ervalue="v3ip-1\.p3np">]6D2E[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3ic\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3mp-1\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3sp\.p[12]ns">]6D2E[</item>
+	        <item ervalue="v3sp\.p3ns">]6D2E[</item>
+		<item ervalue="v3sp\.p1np">]6D2E[</item>
+		<item ervalue="v3sp\.p2np">]6D2E[</item>
+		<item ervalue="v3sp\.p3np">]6D2E[</item>	
+	        <item ervalue="v3si-2\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]6D2E[</item>
+		<item ervalue="v3pps-2\.p1ns">]6D2E[</item>
+	</mask>
+	<mask id="m_etre">
+	<info>verbe être</info>
+	        <item ervalue="v3ip-1\.p1ns">]S/\\tê\\\/suis\//</item>
+	        <item ervalue="v3ip-1\.p2ns">]S/\\tê\\\/es\//</item>	
+	        <item ervalue="v3ip-1\.p3ns">]S/\\tê\\\/est\//</item>
+                <item ervalue="v3ip-1\.p1np">]S/\\tê\\\/sommes\//</item>
+	        <item ervalue="v3ip-1\.p2np">]S/\\tê\\\/êtes\//</item>
+	        <item ervalue="v3ip-1\.p3np">]S/\\tê\\\/sont\//</item>	
+	        <item ervalue="v3ips-2\.p[123]n[sp]">]/\\tê\\/D/f/[</item>
+	        <item ervalue="v3ifs\.p[123]n[sp]">]/\\tê\\/D/se/[</item>
+	        <item ervalue="v3ii\.p[12]ns">]S/\\tê\\\/étais\//</item>
+	        <item ervalue="v3ii\.p3ns">]S/\\tê\\\/était\//</item>
+	        <item ervalue="v3ii\.p1np">]S/\\tê\\\/étions\//</item>
+	        <item ervalue="v3ii\.p2np">]S/\\tê\\\/étiez\//</item>
+	        <item ervalue="v3ii\.p3np">]S/\\tê\\\/étaient\//</item>
+	        <item ervalue="v3ic\.p[123]n[sp]">]/\\tê\\/D/se/[</item>
+	        <item ervalue="v3mp-1\.p2ns">]S/\\tê\\\/sois\//</item>
+	        <item ervalue="v3mp-1\.p1np">]S/\\tê\\\/soyons\//</item>
+	        <item ervalue="v3mp-1\.p2np">]S/\\tê\\\/soyez\//</item>
+	        <item ervalue="v3sp\.p[12]ns">]S/\\tê\\\/sois\//</item>
+	        <item ervalue="v3sp\.p3ns">]S/\\tê\\\/soit\//</item>
+		<item ervalue="v3sp\.p1np">]S/\\tê\\\/soyons\//</item>
+		<item ervalue="v3sp\.p2np">]S/\\tê\\\/soyez\//</item>
+		<item ervalue="v3sp\.p3np">]S/\\tê\\\/soient\//</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]/\\tê\\/D/f/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]S/\\tê\\\/été\//</item>
+	</mask>
+	
+	<mask id="m_etre_std">
+		<info>comme être</info>
+		<item ervalue="v3ip-1\.p[123]n[sp]">]5D2E[</item>
+                <item ervalue="v3ips-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3ifs\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3ic\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3mp-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3sp\.p[12]ns">]5D2E[</item>
+	        <item ervalue="v3sp\.p3ns">]5D2E[</item>
+		<item ervalue="v3sp\.p1np">]5D2E[</item>
+		<item ervalue="v3sp\.p2np">]5D2E[</item>
+		<item ervalue="v3sp\.p3np">]5D2E[</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]5D2E[</item>
+	</mask>
+	
+	<mask id="m_pleuvoir">
+		<info>comme pleuvoir</info>
+		<item ervalue="v3ip-1\.p3ns">]/\\v\\/[</item>
+		<item ervalue="v3ips-2\.p3ns">]/\\vue\\/[</item>
+	        <item ervalue="v3si-2\.p3ns">]/\\vue\\/[</item>
+                <item ervalue="v3pps-2\.p1ns">]/\\vue\\/[</item>
+	</mask>
+	<mask id="m_pleuvoir_std">
+	        <item ervalue="v3ip-1\.p3ns">]6D2E[</item>
+		<item ervalue="v3ips-2\.p3ns">]6D2E[</item>
+	        <item ervalue="v3si-2\.p3ns">]6D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]6D2E[</item>
+	</mask>
+	
+	<mask id="m_falloir">
+		<info>comme falloir</info>
+		<item ervalue="v3ip-1\.p3ns">]/\\ll\\/D/u/[</item>
+		<item ervalue="v3ifs\.p3ns">]/\\ll\\/D/ud/[</item>
+		<item ervalue="v3ic\.p3ns">]/\\ll\\/D/ud/[</item>
+	        <item ervalue="v3sp\.p3ns">]/2P\/i\/2D/[</item>
+	        <item ervalue="v3pp\.p1ns">]S/RS/</item>
+	</mask>
+	<mask id="m_falloir_std">
+		<item ervalue="v3ip-1\.p3ns">]6D2E[</item>
+		<item ervalue="v3ifs\.p3ns">]6D2E[</item>
+	        <item ervalue="v3ic\.p3ns">]6D2E[</item>
+	</mask>
+	<mask id="m_asseoir">
+		<info>comme asseoir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\e\\/D/oi/[</item>
+		<item ervalue="v3ip-1\.p3np">]/\\e\\/D/oi/[</item>
+		<item ervalue="v3ip-1\.p[12]np">]/\\e\\/D/oy/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\e\\/D/oy/[</item>
+	        <item ervalue="v3ips-1\.p[123]n[sp]">]/\\e\\/[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]/\\e\\/D/oi/[</item>
+		<item ervalue="v3ic\.p[123]n[sp]">]/\\e\\/D/oi/[</item>
+		<item ervalue="v3mp-1\.p2ns">]/\\e\\/D/oi/[</item>
+		<item ervalue="v3mp-1\.p[12]np">]/\\e\\/D/oy/[</item>
+		<item ervalue="v3sp\.p[123]ns">]/\\e\\/D/oi/[</item>
+                <item ervalue="v3sp\.p[12]np">]/\\e\\/D/oy/[</item>
+                <item ervalue="v3sp\.p3np">]/\\e\\/D/oi/[</item>		
+                <item ervalue="v3si-1\.p[123]n[sp]">]/\\e\\/[</item>
+                <item ervalue="v3pp\.p1ns">]/\\e\\/D/oy/[</item>
+		<item ervalue="v3pps-1\.p1ns">]S/\\e\\\/is\//</item>
+	</mask>
+	<mask id="m_asseoir_std">
+		<info>comme asseoir</info>
+		<item ervalue="v3ip-1\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3ips-1\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3ic\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3mp-1\.p2ns">]6D2E[</item>
+		<item ervalue="v3mp-1\.p[12]np">]6D2E[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]6D2E[</item>
+		<item ervalue="v3pps-1\.p1ns">]6D2E[</item>
+	</mask>
+	<mask id="m_asseoir2">
+		<info>comme asseoir2</info>
+		<item ervalue="v3ip-4\.p[12]ns">]/\\e\\/D/ied/[</item>
+		<item ervalue="v3ip-4\.p3ns">]/\\e\\/D/ie/[</item>
+		<item ervalue="v3ip-4\.p[13]np">4P/y/[</item>
+		<item ervalue="v3ip-4\.p2np">3P/y/[</item>
+		<item ervalue="v3ii\.p[123]ns">4P/y/[</item>
+		<item ervalue="v3ii\.p1np">5P/y/[</item>
+	        <item ervalue="v3ii\.p2np">4P/y/[</item>
+		<item ervalue="v3ii\.p3np">6P/y/[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]/\\e\\/[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]/\\e\\/D/é/[</item>
+		<item ervalue="v3ic\.p[123]n[sp]">]/\\e\\/D/é/[</item>
+		<item ervalue="v3mp-1\.p2ns">]/\\e\\/D/ied/[</item>
+		<item ervalue="v3mp-1\.p1np">4P/y/[</item>
+	        <item ervalue="v3mp-1\.p2np">3P/y/[</item>
+	        <item ervalue="v3sp\.p[13]ns">2P/y/[</item>
+		<item ervalue="v3sp\.p2ns">3P/y/[</item>
+	        <item ervalue="v3sp\.p1np">5P/y/[</item>
+		<item ervalue="v3sp\.p[23]np">4P/y/[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]/\\e\\/[</item>
+	        <item ervalue="v3pp\.p1ns">4P/y/[</item>
+		<item ervalue="v3pps-1\.p1ns">]S/\\e\\\/is\//</item>
+	</mask>
+	<mask id="m_asseoir2_std">
+		<item ervalue="v3ip-4\.p[123]ns">]6D2E[</item>
+	        <item ervalue="v3ips-1\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3ic\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3mp-1\.p2ns">]6D2E[</item>
+                <item ervalue="v3si-1\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3pps-1\.p1ns">]6D2E[</item>
+	</mask>
+	<mask id="m_seoir">
+		<info>comme seoir</info>
+		<item ervalue="v3ip-4\.p[12]n[sp]">]S/RS/</item>
+                <item ervalue="v3ip-4\.p3ns">]/\\e\\/D/ie/[</item>
+		<item ervalue="v3ip-4\.p3np">]/\\e\\/D/ié/[</item>
+		<item ervalue="v3ii\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3ii\.p3ns">4P/y/[</item>
+		<item ervalue="v3ii\.p3np">6P/y/[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]S/RS/</item>
+		<item ervalue="v3ifs\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3ifs\.p3n[sp]">]/\\e\\/D/ié/[</item>
+		<item ervalue="v3ic\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3ic\.p3n[sp]">]/\\e\\/D/ié/[</item>
+	        <item ervalue="v3sp\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3sp\.p3n[sp]">]/\\e\\/D/ié/[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]S/RS/</item>
+	        <item ervalue="v3pp\.p1ns">]/\\e\\/D/é/[</item>
+		<item ervalue="v3pps-1\.p1ns">]S/\\e\\\/is\//</item>
+	</mask>
+	
+	<mask id="m_seoir_std">
+		<item ervalue="v3ip-4\.p3n[sp]">]6D2E[</item>
+	        <item ervalue="v3ifs\.p3n[sp]">]6D2E[</item>
+		<item ervalue="v3ic\.p3n[sp]">]6D2E[</item>
+	        <item ervalue="v3sp\.p3n[sp]">]6D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]6D2E[</item>
+		<item ervalue="v3pps-1\.p1ns">]6D2E[</item>
+	</mask>
+	
+	<mask id="m_acquerir">
+		<info>comme acquérir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/P\\é\\\/ie\/D/[</item>
+		<item ervalue="v3ip-1\.p3np">]/P\\é\\\/iè\/D/[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]/\\ré\\/[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]/P\\é\\\/e\/D/[</item>
+                <item ervalue="v3ic\.p[123]n[sp]">]/P\\é\\\/e\/D/[</item>
+	        <item ervalue="v3mp-1\.p2ns">]/P\\é\\\/ie\/D/[</item>
+	        <item ervalue="v3sp\.p[123]ns">]/P\\é\\\/iè\/D/[</item>
+                <item ervalue="v3sp\.p3np">]/P\\é\\\/iè\/D/[</item>
+		<item ervalue="v3si-1\.p[123]n[sp]">]/\\ré\\/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/\\ré\\\/is\//</item>
+	</mask>
+	<mask id="m_acquerir_std">
+		<item ervalue="v3ips-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pps-1\.p1ns">]5D2E[</item>
+	</mask>
+	
+	<mask id="m_sentir">
+		<info>comme sentir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\t\\/[</item>
+	        <item ervalue="v3mp-1\.p2ns">]/\\t\\/[</item>
+	</mask>
+	<mask id="m_sentir_std">
+	        <item ervalue="v3ip-1\.p[123]ns">]5D2E[</item>
+	        <item ervalue="v3mp-1\.p2ns">]5D2E[</item>
+	</mask>
+	
+	<mask id="m_vetir">
+		<info>comme vêtir</info>
+		<item ervalue="v3ip-1\.p3ns">]/\\t\\/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/\/u\//</item>
+	</mask>
+        <mask id="m_vetir_std">
+	        <item ervalue="v3ip-1\.p3ns">]5D2E[</item>
+	</mask>
+	<mask id="m_faillir">
+		<info>comme faillir</info>
+		<item ervalue="v3ip-3\.p[123]ns">]/\\lli\\/D/u/[</item>
+		<item ervalue="v3mp-3\.p2ns">]/\\lli\\/D/u/[</item>
+	</mask>
+	<mask id="m_faillir_std">
+		<item ervalue="v3ip-3\.p[123]ns">]5D2E[</item>
+	        <item ervalue="v3mp-3\.p2ns">]5D2E[</item>
+	</mask>
+	<mask id="m_dormir">
+		<info>comme dormir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\m\\/[</item>
+	        <item ervalue="v3mp-1\.p2ns">]/\\m\\/[</item>
+	</mask>
+	<mask id="m_dormir_std">
+		<item ervalue="v3ip-1\.p[123]ns">]5D2E[</item>
+	        <item ervalue="v3mp-1\.p2ns">]5D2E[</item>
+	</mask>
+	<mask id="m_mourir">
+		<info>comme mourir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/2P\\o\\\/e\/2D/[</item>
+	        <item ervalue="v3ip-1\.p3np">]/2P\\o\\\/e\/2D/[</item>
+	        <item ervalue="v3mp-1\.p2ns">]/2P\\o\\\/e\/2D/[</item>
+	        <item ervalue="v3sp\.p[123]ns">]/2P\\o\\\/e\/2D/[</item>
+	        <item ervalue="v3sp\.p3np">]/2P\\o\\\/e\/2D/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]S/\\ru\\\/rt\//</item>
+	</mask>
+	<mask id="m_mourir_std">
+		<item ervalue="v3pps-2\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_servir">
+		<info>comme servir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\v\\/[</item>
+		<item ervalue="v3mp-1\.p2ns">]/\\m\\/[</item>
+	</mask>
+	<mask id="m_servir_std">
+		<item ervalue="v3ip-1\.p[123]ns">]5D2E[</item>
+	        <item ervalue="v3mp-1\.p2ns">]5D2E[</item>
+	</mask>
+	<mask id="m_fuir">
+		<info>comme fuir</info>
+		<item ervalue="v3ip-1\.p[123]ns">2P/i/[</item>
+	        <item ervalue="v3ip-1\.p1np">4P/y/[</item>
+		<item ervalue="v3ip-1\.p2np">3P/y/[</item>
+		<item ervalue="v3ip-1\.p3np">4P/i/[</item>
+		<item ervalue="v3ii\.p[123]ns">4P/y/[</item>
+	        <item ervalue="v3ii\.p2np">4P/y/[</item>
+		<item ervalue="v3ii\.p3np">6P/y/[</item>
+		<item ervalue="v3ii\.p1np">5P/y/[</item>
+		<item ervalue="v3mp-1\.p2ns">2P/i/[</item>
+	        <item ervalue="v3mp-1\.p1np">4P/y/[</item>
+	        <item ervalue="v3mp-1\.p2np">3P/y/[</item>
+	        <item ervalue="v3sp\.p[13]ns">2P/i/[</item>
+	        <item ervalue="v3sp\.p2ns">3P/i/[</item>
+		<item ervalue="v3sp\.p1np">5P/y/[</item>
+		<item ervalue="v3sp\.p2np">4P/y/[</item>
+		<item ervalue="v3sp\.p3np">4P/i/[</item>
+	        <item ervalue="v3pp\.p1ns">4P/y/[</item>
+	</mask>
+	<mask id="m_ouir">
+		<info>comme ouïr</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\u\\/D/i/[</item>
+	        <item ervalue="v3ip-1\.p3np">]/\\u\\/D/i/[</item>
+		<item ervalue="v3ip-1\.p[12]np">]/\\u\\/D/y/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\u\\/D/y/[</item>
+	        <item ervalue="v3ips-1\.p[12]ns">]S/\/ïs\//</item>
+		<item ervalue="v3ips-1\.p3ns">]S/\/ït\//</item>
+		<item ervalue="v3ips-1\.p1np">]S/\/ïmes\//</item>
+		<item ervalue="v3ips-1\.p2np">]S/\/ïtes\//</item>
+		<item ervalue="v3ips-1\.p3np">]S/\/ïrent\//</item>
+		<item ervalue="v3ifs\.p[12]ns">4P/i/[</item>
+		<item ervalue="v3ifs\.p3ns">3P/ï/[</item>
+                <item ervalue="v3ifs\.p[13]np">5P/ï/[</item>
+	        <item ervalue="v3ifs\.p2np">4P/ï/[</item>
+	        <item ervalue="v3ic\.p[123]ns">5P/ï/[</item>
+		<item ervalue="v3ic\.p3np">7P/ï/[</item>
+                <item ervalue="v3ic\.p1np">6P/ï/[</item>
+	        <item ervalue="v3ic\.p2np">5P/ï/[</item>
+		<item ervalue="v3mp-1\.p2ns">]/\\u\\/D/i/[</item>
+	        <item ervalue="v3mp-1\.p[12]np">]/\\u\\/D/y/[</item>
+	        <item ervalue="v3sp\.p[123]ns">]/\\u\\/D/i/[</item>
+	        <item ervalue="v3sp\.p3np">]/\\u\\/D/i/[</item>
+		<item ervalue="v3sp\.p[12]np">]/\\u\\/D/y/[</item>
+	        <item ervalue="v3si-1\.p1ns">]S/\\i\\\/ïsse\//</item>
+	        <item ervalue="v3si-1\.p2ns">]S/\\i\\\/ïsses\//</item>
+		<item ervalue="v3si-1\.p3ns">]S/\\i\\\/ït\//</item>
+		<item ervalue="v3si-1\.p1np">]S/\\i\\\/ïssions\//</item>
+	        <item ervalue="v3si-1\.p2np">]S/\\i\\\/ïssiez\//</item>
+		<item ervalue="v3si-1\.p3np">]S/\\i\\\/ïssent\//</item>
+	        <item ervalue="v3pp\.p1ns">]/\\u\\/D/y/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/\/ï\//</item>
+	</mask>
+	<mask id="m_ouir_std">
+		<item ervalue="v3ip-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3mp-1\.p2ns">]5D2E[</item>
+	        <item ervalue="v3mp-1\.p[12]np">]5D2E[</item>
+                <item ervalue="v3sp\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_gesir">
+		<info>comme gésir</info>
+	        <item ervalue="v3ip-1\.p[12]ns">]/\\sé\\/D/i/[</item>
+	        <item ervalue="v3ip-1\.p3ns">]/\\sé\\/D/î/[</item>
+		<item ervalue="v3ip-1\.p[12]np">]/\\sé\\/D/is/[</item>
+		<item ervalue="v3ip-1\.p3np">]/\\sé\\/D/is/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\sé\\/D/is/[</item>
+	        <item ervalue="v3ips-1\.p[123]n[sp]">]S/RS/</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]S/RS/</item>
+		<item ervalue="v3ic\.p[123]n[sp]">]S/RS/</item>
+                <item ervalue="v3sp\.p[123]n[sp]">]S/RS/</item>
+                <item ervalue="v3si-1\.p[123]n[sp]">]S/RS/</item>
+	        <item ervalue="v3pp\.p1ns">]/P\\é\\\/i\/D/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/RS/</item>
+	</mask>
+	<mask id="m_gesir_std">
+		<item ervalue="v3ip-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+        </mask>
+	
+	<mask id="m_surseoir">
+		<info>comme surseoir</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\e\\/D/oi/[</item>
+                <item ervalue="v3ip-1\.p3np">]/\\e\\/D/oi/[</item>
+		<item ervalue="v3ip-1\.p[12]np">]/\\e\\/D/oy/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\e\\/D/oy/[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]/\\e\\/[</item>
+		<item ervalue="v3mp-1\.p2ns">]/\\e\\/D/oi/[</item>
+	        <item ervalue="v3mp-1\.p[12]np">]/\\e\\/D/oy/[</item>
+	        <item ervalue="v3sp\.p[123]ns">]/\\e\\/D/oi/[</item>
+                <item ervalue="v3sp\.p3np">]/\\e\\/D/oi/[</item>
+		<item ervalue="v3sp\.p[12]np">]/\\e\\/D/oy/[</item>
+		<item ervalue="v3si-1\.p[123]n[sp]">]/\\e\\/[</item>
+	        <item ervalue="v3pp\.p1ns">]/\\e\\/D/oy/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/\\e\\\/is\//</item>
+	</mask>
+	
+	<mask id="m_surseoir_std">
+	        <item ervalue="v3ip-1\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]6D2E[</item>	
+	        <item ervalue="v3mp-1\.p2ns">]6D2E[</item>
+	        <item ervalue="v3mp-1\.p[12]np">]6D2E[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]6D2E[</item>
+		<item ervalue="v3si-1\.p[123]n[sp]">]6D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]6D2E[</item>
+	        <item ervalue="v3pps-1\.p1ns">]6D2E[</item>
+	</mask>
+	
+	<mask id="m_choir">
+		<info>comme choir</info>
+		<item ervalue="v3ip-1\.p[123]ns">2P/oi/[</item>
+                <item ervalue="v3ip-1\.p1np">4P/oy/[</item>
+		<item ervalue="v3ip-1\.p2np">3P/oy/[</item>
+		<item ervalue="v3ip-1\.p3np">4P/oi/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]S/RS/</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]S/RS/</item>
+                <item ervalue="v3si-2\.p[12]n[sp]">]S/RS/</item>
+	        <item ervalue="v3si-2\.p3np">]S/RS/</item>
+	        <item ervalue="v3pp\.p1ns">]S/RS/</item>
+	</mask>
+        <mask id="m_dechoir">
+		<info>comme déchoir</info>
+		<item ervalue="v3ip-1\.p[123]ns">2P/oi/[</item>
+                <item ervalue="v3ip-1\.p1np">4P/oy/[</item>
+		<item ervalue="v3ip-1\.p2np">3P/oy/[</item>
+		<item ervalue="v3ip-1\.p3np">4P/oi/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]S/RS/</item>
+	        <item ervalue="v3sp\.p[13]ns">2P/oi/[</item>
+                <item ervalue="v3sp\.p2ns">3P/oi/[</item>
+		<item ervalue="v3sp\.p1np">5P/oy/[</item>
+		<item ervalue="v3sp\.p2np">4P/oy/[</item>
+		<item ervalue="v3sp\.p3np">4P/oi/[</item>
+                <item ervalue="v3pp\.p1ns">]S/RS/</item>
+	</mask>
+	<mask id="m_echoir">
+		<info>comme échoir</info>
+		<item ervalue="v3ip-1\.p[12]n[sp]">]S/RS/</item>
+                <item ervalue="v3ip-1\.p3np">4P/oi/[</item>
+		<item ervalue="v3ip-1\.p3ns">2P/oi/[</item>
+		<item ervalue="v3ii\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3ii\.p3np">6P/oi/[</item>
+		<item ervalue="v3ii\.p3ns">4P/oi/[</item>
+		<item ervalue="v3ips-2\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3ifs\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3ifs\.p3ns">3P/oi/[</item>
+                <item ervalue="v3ifs\.p3np">5P/oi/[</item>
+	        <item ervalue="v3ic\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3ic\.p3np">7P/oi/[</item>
+                <item ervalue="v3ic\.p3ns">5P/oi/[</item>
+	        <item ervalue="v3sp\.p[12]n[sp]">]S/RS/</item>
+		<item ervalue="v3sp\.p3ns">2P/oi/[</item>
+		<item ervalue="v3sp\.p3np">4P/oi/[</item>
+		<item ervalue="v3si-2\.p[12]n[sp]">]S/RS/</item>
+	        <item ervalue="v3pp\.p1ns">4P/é/[</item>
+	</mask>
+	<mask id="m_rendre">
+		<info>comme rendre</info>
+		<item ervalue="v3ip-4\.p3ns">]S//</item>
+        <item ervalue="v3mp-1\.p3ns">]/\\d\\/[</item>
+	    <item ervalue="v3pps-1\.p1ns">]S/\/u\//</item>
+	</mask>
+	<mask id="m_dre_std">
+         <item ervalue="v3mp-1\.p3ns">]5D2E[</item>
+	</mask>
+	<mask id="m_prendre">
+		<info>comme prendre</info>
+		<item ervalue="v3ip-4\.p3ns">]S//</item>
+                <item ervalue="v3ip-4\.p[123]np">]/\\d\\/[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]/\\dne\\/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\d\\/[</item>
+		<item ervalue="v3mp-1\.p3ns">]/\\d\\/[</item>
+	        <item ervalue="v3mp-1\.p[12]np">]/\\d\\/[</item>
+	        <item ervalue="v3sp\.p[123]ns">]/\\d\\/D/n/[</item>
+		<item ervalue="v3sp\.p3np">]/\\d\\/D/n/[</item>
+		<item ervalue="v3sp\.p[12]np">]/\\d\\/[</item>
+		<item ervalue="v3si-1\.p[123]n[sp]">]/\\dne\\/[</item>
+	        <item ervalue="v3pp\.p1ns">]/\\d\\/[</item>
+		<item ervalue="v3pps-1\.p1ns">]S/\\dne\\\/is\//</item>
+	</mask>
+	<mask id="m_prendre_std">
+                <item ervalue="v3ip-4\.p[123]np">]5D2E[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3mp-1\.p[12]np">]5D2E[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3si-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]5D2E[</item>
+		<item ervalue="v3pps-1\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_battre">
+		<info>comme battre</info>
+		<item ervalue="v3ip-1\.p[12]ns">]/\\t\\/[</item>
+		<item ervalue="v3ip-1\.p3ns">]/\\tt\\/[</item>
+		<item ervalue="v3mp-1\.p2ns">]/\\t\\/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/\/u\//</item>
+	</mask>
+	<mask id="m_tre_std">
+		<item ervalue="v3ip-1\.p[12]ns">]5D2E[</item>
+		<item ervalue="v3ip-1\.p3ns">]5D2E[</item>
+		<item ervalue="v3mp-1\.p2ns">]5D2E[</item>
+	</mask>
+	<mask id="m_mettre">
+		<info>comme mettre</info>
+		<item ervalue="v3ip-1\.p[12]ns">]/\\t\\/[</item>
+		<item ervalue="v3ip-1\.p3ns">]/\\tt\\/[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]/\\tte\\/[</item>
+		<item ervalue="v3mp-1\.p2ns">]/\\t\\/[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]/\\tte\\/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/\\tte\\\/is\//</item>
+	</mask>
+	<mask id="m_mettre_std">
+		<item ervalue="v3ips-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pps-1\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_indre">
+		<info>comme peindre</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\d\\/[</item>
+		<item ervalue="v3ip-1\.p[123]np">]/\\dn\\/D/gn/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\dn\\/D/gn/[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]/\\dn\\/D/gn/[</item>
+	        <item ervalue="v3mp-1\.p2ns">]/\\d\\/[</item>
+		<item ervalue="v3mp-1\.p[12]np">]/\\dn\\/D/gn/[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]/\\dn\\/D/gn/[</item>
+		<item ervalue="v3si-1\.p[123]n[sp]">]/\\dn\\/D/gn/[</item>
+	        <item ervalue="v3pp\.p1ns">]/\\dn\\/D/gn/[</item>
+		<item ervalue="v3pps-1\.p1ns">]S/\\d\\\/t\//</item>
+	</mask>
+	<mask id="m_indre_std">
+		<item ervalue="v3ip-1\.p[123]ns">]5D2E[</item>
+		<item ervalue="v3ip-1\.p[123]np">]5D2E[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3mp-1\.p2ns">]5D2E[</item>
+		<item ervalue="v3mp-1\.p[12]np">]5D2E[</item>
+                <item ervalue="v3sp\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3si-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]5D2E[</item>
+		<item ervalue="v3pps-1\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_vaincre">
+		<info>comme vaincre</info>
+		<item ervalue="v3ip-5\.p3ns">]S//</item>
+		<item ervalue="v3ip-5\.p[123]np">]/\\c\\/D/qu/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\c\\/D/qu/[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]/\\c\\/D/qu/[</item>
+		<item ervalue="v3mp-1\.p[12]np">]/\\c\\/D/qu/[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]/\\c\\/D/qu/[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]/\\c\\/D/qu/[</item>	
+	        <item ervalue="v3pp\.p1ns">]/\\c\\/D/qu/[</item>
+		<item ervalue="v3pps-1\.p1ns">]S/\/u\//</item>
+	</mask>
+	<mask id="m_vaincre_std">
+		<item ervalue="v3ip-1\.p3ns">]5D2E[</item>
+		<item ervalue="v3ip-1\.p[123]np">]5D2E[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3mp-1\.p[12]np">]5D2E[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_traire">
+		<info>comme traire</info>
+		<item ervalue="v3ip-1\.p[12]np">]/\\i\\/D/y/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\i\\/D/y/[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]S/RS/</item>
+	        <item ervalue="v3mp-1\.p[12]np">]/\\i\\/D/y/[</item>
+	        <item ervalue="v3sp\.p[12]np">]/\\i\\/D/y/[</item>
+		<item ervalue="v3si-1\.p[123]n[sp]">]S/RS/</item>
+	        <item ervalue="v3pp\.p1ns">]/\\i\\/D/y/[</item>
+		<item ervalue="v3pps-1\.p1ns">]S/\/t\//</item>
+	</mask>
+	<mask id="m_traire_std">
+		<item ervalue="v3ip-1\.p[12]np">]5D2E[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3mp-1\.p[12]np">]5D2E[</item>
+	        <item ervalue="v3sp\.p[12]np">]5D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_faire">
+		<info>comme faire</info>
+		<item ervalue="v3ip-1\.p1np">4P/s/[</item>
+		<item ervalue="v3ip-1\.p2np">]S/\/tes\//</item>
+		<item ervalue="v3ip-1\.p3np">]S/\\ia\\\/ont\//</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]/\\ia\\/[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]/\\ia\\/D/e/[</item>
+		<item ervalue="v3ic\.p[123]n[sp]">]/\\ia\\/D/e/[</item>
+		<item ervalue="v3mp-1\.p1np">4P/s/[</item>
+		<item ervalue="v3mp-1\.p2np">]S/\/tes\//</item>
+		<item ervalue="v3sp\.p[123]n[sp]">]/\\i\\/D/ss/[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]/\\ia\\/[</item>
+	        <item ervalue="v3pp\.p1ns">4P/s/[</item>
+		<item ervalue="v3pps-1\.p1ns">]S/\/t\//</item>
+	</mask>
+	<mask id="m_faire_std">
+		<item ervalue="v3ip-1\.p3np">]5D2E[</item>
+	        <item ervalue="v3ips-1\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3ifs\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3ic\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]5D2E[</item>
+	</mask>
+	<mask id="m_plaire">
+		<info>comme plaire</info>
+		<item ervalue="v3ip-1\.p[13]np">4P/s/[</item>
+		<item ervalue="v3ip-1\.p2np">3P/s/[</item>
+		<item ervalue="v3ip-1\.p3ns">]/\\i\\/D/î/[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]/\\ia\\/[</item>
+		<item ervalue="v3mp-1\.p1np">4P/s/[</item>
+		<item ervalue="v3mp-1\.p2np">3P/s/[</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]/\\ia\\/[</item>
+	        <item ervalue="v3pp\.p1ns">4P/s/[</item>
+		<item ervalue="v3pps-2\.p1ns">]/\\ia\\/[</item>
+	</mask>
+	<mask id="m_aire_std">
+		<info>on rajoute "s" à l'imparfait</info>
+		<item ervalue="v3ii\.p[123]ns">4P/s/[</item>
+	        <item ervalue="v3ii\.p3np">6P/s/[</item>
+	        <item ervalue="v3ii\.p1np">5P/s/[</item>
+	        <item ervalue="v3ii\.p2np">4P/s/[</item>
+	</mask>
+	<mask id="m_plaire_std">
+		<item ervalue="v3ips-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3ip-1\.p3ns">]5D2E[</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_aitre">
+		<info>point commun imparfait, présent de l'ind et présent subj</info>
+		<item ervalue="v3ip-1\.p[12]ns">]/\\tî\\/D/i/[</item>
+	        <item ervalue="v3ip-1\.p3ns">]S//</item>
+		<item ervalue="v3ip-1\.p[123]np">]/\\tî\\/D/iss/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\tî\\/D/iss/[</item>
+	        <item ervalue="v3mp-1\.p2ns">]/\\tî\\/D/i/[</item>
+		<item ervalue="v3mp-1\.p[12]np">]/\\tî\\/D/iss/[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]/\\tî\\/D/iss/[</item>
+	        <item ervalue="v3pp\.p1ns">]/\\tî\\/D/iss/[</item>
+	</mask>
+	<mask id="m_aitre_std">
+	        <item ervalue="v3ip-1\.p[12]ns">]5D2E[</item>
+	        <item ervalue="v3ip-1\.p[123]np">]5D2E[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3mp-1\.p2ns">]5D2E[</item>
+		<item ervalue="v3mp-1\.p[12]np">]5D2E[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_connaitre">
+		<info>comme connaître</info>
+	        <item ervalue="v3ips-2\.p[123]n[sp]">]/\\tîa\\/[</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]/\\tîa\\/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]/\\tîa\\/[</item>
+	</mask>
+	<mask id="m_connaitre_std">
+	        <item ervalue="v3ips-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]5D2E[</item>
+                <item ervalue="v3pps-2\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_naitre">
+		<info>comme naître</info>
+	        <item ervalue="v3ips-1\.p[123]n[sp]">]/\\tî\\/D/qu/[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]/\\tî\\/D/qu/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/\\tîa\\\/é\//</item>
+	</mask>
+	<mask id="m_naitre_std">
+	        <item ervalue="v3ips-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pps-1\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_paitre">
+		<info>comme paître</info>
+	        <item ervalue="v3ips-1\.p[123]n[sp]">]S/RS/</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]S/RS/</item>
+                <item ervalue="v3pps-1\.p1ns">]S/RS/</item>
+	</mask>
+	<mask id="m_croitre">
+		<info>comme croître</info>
+	        <item ervalue="v3ip-1\.p[123]ns">]/\\t\\/[</item>
+	        <item ervalue="v3ip-1\.p[123]np">]/\\tî\\/D/iss/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\tî\\/D/iss/[</item>
+                <item ervalue="v3ips-2\.p[12]ns">]S/\\tîo\\\/ûs\//</item>
+	        <item ervalue="v3ips-2\.p3ns">]S/\\tîo\\\/ût\//</item>
+		<item ervalue="v3ips-2\.p[12]np">]/\\tîo\\/[</item>
+		<item ervalue="v3ips-2\.p3np">]S/\\tîo\\\/ûrent\//</item>
+	        <item ervalue="v3mp-1\.p2ns">]/\\t\\/[</item>
+	        <item ervalue="v3mp-1\.p[12]np">]/\\tî\\/D/iss/[</item>
+		<item ervalue="v3sp\.p[123]n[sp]">]/\\tî\\/D/iss/[</item>
+	        <item ervalue="v3si-2\.p1ns">]S/\\tîo\\\/ûsse\//</item>
+	        <item ervalue="v3si-2\.p2ns">]S/\\tîo\\\/ûsses\//</item>
+		<item ervalue="v3si-2\.p3ns">]S/\\tîo\\\/ût\//</item>
+		<item ervalue="v3si-2\.p1np">]S/\\tîo\\\/ûssions\//</item>
+		<item ervalue="v3si-2\.p2np">]S/\\tîo\\\/ûssiez\//</item>
+		<item ervalue="v3si-2\.p3np">]S/\\tîo\\\/ûssent\//</item>
+	        <item ervalue="v3pp\.p1ns">]/\\tî\\/D/iss/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]S/\\tîo\\\/û\//</item>
+	</mask>
+	<mask id="m_croitre_std">
+	        <item ervalue="v3ip-1\.p[123]n[sp]">]5D2E[</item>
+                <item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3ips-2\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3mp-1\.p2ns">]5D2E[</item>
+		<item ervalue="v3mp-1\.p[12]np">]5D2E[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]5D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_croire">
+		<info>comme croire</info>
+		<item ervalue="v3ip-1\.p[12]np">]/\\i\\/D/y/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\i\\/D/y/[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]/\\io\\/[</item>
+	        <item ervalue="v3mp-1\.p[12]np">]/\\i\\/D/y/[</item>
+	        <item ervalue="v3sp\.p[12]np">]/\\i\\/D/y/[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]/\\io\\/[</item>
+	        <item ervalue="v3pp\.p1ns">]/\\i\\/D/y/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]/\\io\\/[</item>
+	</mask>
+	<mask id="m_croire_std">
+		<item ervalue="v3ip-1\.p[12]np">]5D2E[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3mp-1\.p[12]np">]5D2E[</item>
+	        <item ervalue="v3sp\.p[12]np">]5D2E[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]5D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_boire">
+		<info>comme boire</info>
+		<item ervalue="v3ip-1\.p[12]np">]/\\io\\/D/uv/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\io\\/D/uv/[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]/\\io\\/[</item>
+	        <item ervalue="v3mp-1\.p[12]np">]/\\io\\/D/uv/[</item>
+	        <item ervalue="v3sp\.p[13]ns">2P/v/[</item>
+		<item ervalue="v3sp\.p2ns">3P/v/[</item>
+		<item ervalue="v3sp\.p[12]np">]/\\io\\/D/uv/[</item>
+		<item ervalue="v3sp\.p3np">4P/v/[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]/\\io\\/[</item>
+	        <item ervalue="v3pp\.p1ns">]/\\io\\/D/uv/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]/\\io\\/[</item>
+	</mask>
+	<mask id="m_boire_std">
+		<item ervalue="v3ip-1\.p[12]np">]5D2E[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3mp-1\.p[12]np">]5D2E[</item>
+	        <item ervalue="v3sp\.p[12]np">]5D2E[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]5D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_s_std">
+		<info>on rajoute "s" au présent du subj</info>
+		<item ervalue="v3sp\.p[13]ns">2P/s/[</item>
+		<item ervalue="v3sp\.p2ns">3P/s/[</item>
+		<item ervalue="v3sp\.p[23]np">4P/s/[</item>
+		<item ervalue="v3sp\.p1np">5P/s/[</item>
+	</mask>
+	
+	<mask id="m_clore">
+		<info>comme clore</info>
+		<item ervalue="v3ip-1\.p3ns">]/\\o\\/D/ô/[</item>
+		<item ervalue="v3ip-1\.p[12]np">]S/RS/</item>
+		<item ervalue="v3ip-1\.p3np">4P/s/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]S/RS/</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]S/RS/</item>
+	        <item ervalue="v3mp-1\.p[12]np">]S/RS/</item>
+		<item ervalue="v3si-1\.p[123]n[sp]">]S/RS/</item>
+	        <item ervalue="v3pp\.p1ns">4P/s/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/\/s\//</item>
+		</mask>
+	<mask id="m_clore_std">
+		<item ervalue="v3ip-1\.p3ns">]5D2E[</item>
+	</mask>
+	
+	<mask id="m_clure">
+		<info>comme conclure</info>
+	        <item ervalue="v3ips-2\.p[123]n[sp]">]/\\u\\/[</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]/\\u\\/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]/\\u\\/[</item>
+	</mask>
+	<mask id="m_clure_std">
+	        <item ervalue="v3ips-2\.p[123]n[sp]">]5D2E[</item>
+                <item ervalue="v3si-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_absoudre">
+		<info>comme absoudre</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\d\\/[</item>
+		<item ervalue="v3ip-1\.p[123]np">]/\\du\\/D/lv/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\du\\/D/lv/[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]S/RS/</item>
+	        <item ervalue="v3mp-1\.p2ns">]/\\d\\/[</item>
+		<item ervalue="v3mp-1\.p[12]np">]/\\du\\/D/lv/[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]/\\du\\/D/lv/[</item>
+		<item ervalue="v3si-1\.p[123]n[sp]">]S/RS/</item>
+	        <item ervalue="v3pp\.p1ns">]/\\du\\/D/lv/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/\\d\\\/s\//</item>
+	</mask>
+	<mask id="m_absoudre_std">
+		<item ervalue="v3ip-1\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3mp-1\.p2ns">]5D2E[</item>
+		<item ervalue="v3mp-1\.p[12]np">]5D2E[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]5D2E[</item>
+	        <item ervalue="v3pps-1\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_coudre">
+		<info>comme coudre</info>
+		<item ervalue="v3ip-4\.p3ns">]S//</item>
+		<item ervalue="v3ip-4\.p[123]np">]/\\d\\/D/s/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\d\\/D/s/[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]/\\d\\/D/s/[</item>
+		<item ervalue="v3mp-1\.p[12]np">]/\\d\\/D/s/[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]/\\d\\/D/s/[</item>
+		<item ervalue="v3si-1\.p[123]n[sp]">]/\\d\\/D/s/[</item>
+	        <item ervalue="v3pp\.p1ns">]/\\d\\/D/s/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/\\d\\\/su\//</item>
+	</mask>
+	<mask id="m_coudre_std">
+		<item ervalue="v3ip-4\.p[123]np">]5D2E[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3mp-1\.p[12]np">]5D2E[</item>	
+	        <item ervalue="v3sp\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3si-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]5D2E[</item>
+	        <item ervalue="v3pps-1\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_moudre">
+		<info>comme moudre</info>
+		<item ervalue="v3ip-4\.p3ns">]S//</item>
+		<item ervalue="v3ip-4\.p[123]np">]/\\d\\/D/l/[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]/\\d\\/D/l/[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]/\\d\\/D/l/[</item>
+		<item ervalue="v3mp-1\.p[12]np">]/\\d\\/D/l/[</item>
+	        <item ervalue="v3sp\.p[123]n[sp]">]/\\d\\/D/l/[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]/\\d\\/D/l/[</item>
+	        <item ervalue="v3pp\.p1ns">]/\\d\\/D/l/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]/\\d\\/D/l/[</item>
+	</mask>
+	<mask id="m_moudre_std">
+		<item ervalue="v3ip-4\.p[123]np">]5D2E[</item>
+		<item ervalue="v3ii\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3mp-1\.p[12]np">]5D2E[</item>	
+	        <item ervalue="v3sp\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pp\.p1ns">]5D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]5D2E[</item>
+	</mask>
+	<mask id="m_suivre">
+		<info>comme suivre</info>
+		<item ervalue="v3ip-1\.p[123]ns">]/\\v\\/[</item>
+	        <item ervalue="v3mp-1\.p2ns">]/\\v\\/[</item>
+	</mask>
+	<mask id="m_suivre_std">
+	        <item ervalue="v3ip-1\.p[123]ns">]5D2E[</item>	
+	        <item ervalue="v3mp-1\.p2ns">]5D2E[</item>
+	</mask>
+	<mask id="m_vivre">
+		<info>comme vivre</info>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]/\\vi\\/D/éc/[</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]/\\vi\\/D/éc/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]/\\vi\\/D/éc/[</item>
+	</mask>      
+	<mask id="m_vivre_std">
+	        <item ervalue="v3ips-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]5D2E[</item>
+	</mask>
+	
+	<mask id="m_lire">
+		<info>comme lire</info>
+		<item ervalue="v3ip-1\.p[13]np">4P/s/[</item>
+		<item ervalue="v3ip-1\.p2np">3P/s/[</item>
+		<item ervalue="v3ips-2\.p[123]n[sp]">]/\\i\\/[</item>
+	        <item ervalue="v3mp-1\.p1np">4P/s/[</item>
+		<item ervalue="v3mp-1\.p2np">3P/s/[</item>
+		<item ervalue="v3si-2\.p[123]n[sp]">]/\\i\\/[</item>
+	        <item ervalue="v3pp\.p1ns">4P/s/[</item>
+	        <item ervalue="v3pps-2\.p1ns">]/\\i\\/[</item>
+	</mask>      
+	<mask id="m_lire_std">
+	        <item ervalue="v3ips-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3si-2\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3pps-2\.p1ns">]5D2E[</item>
+	</mask>
+	
+	<mask id="m_dire">
+		<info>comme dire</info>
+		<item ervalue="v3ip-1\.p[13]np">4P/s/[</item>
+		<item ervalue="v3ip-1\.p2np">]S/\/tes\//</item>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]/\\i\\/[</item>
+	        <item ervalue="v3mp-1\.p1np">4P/s/[</item>
+		<item ervalue="v3mp-1\.p2np">]S/\/tes\//</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]/\\i\\/[</item>
+	        <item ervalue="v3pp\.p1ns">4P/s/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/\/t\//</item>
+	</mask>      
+	<mask id="m_dire_std">   
+	        <item ervalue="v3ips-1\.p[123]n[sp]">]5D2E[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]5D2E[</item>
+	</mask>
+	<mask id="m_rire">
+		<info>comme rire</info>
+		<item ervalue="v3ips-1\.p[123]n[sp]">]/\\i\\/[</item>
+	        <item ervalue="v3si-1\.p[123]n[sp]">]/\\i\\/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S//</item>
+	</mask>     
+	
+	<mask id="m_ecrire">
+		<info>comme écrire</info>
+		<item ervalue="v3ip-1\.p[13]np">4P/v/[</item>
+		<item ervalue="v3ip-1\.p2np">3P/v/[</item>
+		<item ervalue="v3ii\.p[123]ns">4P/v/[</item>
+	        <item ervalue="v3ii\.p3np">6P/v/[</item>
+	        <item ervalue="v3ii\.p1np">5P/v/[</item>
+	        <item ervalue="v3ii\.p2np">4P/v/[</item>
+		<item ervalue="v3ips-1\.p[123]ns">3P/v/[</item>
+	        <item ervalue="v3ips-1\.p[12]np">5P/v/[</item>
+		<item ervalue="v3ips-1\.p3np">6P/v/[</item>
+		<item ervalue="v3mp-1\.p1np">4P/v/[</item>
+		<item ervalue="v3mp-1\.p2np">3P/v/[</item>
+	        <item ervalue="v3sp\.p[13]ns">2P/v/[</item>
+		<item ervalue="v3sp\.p2ns">3P/v/[</item>
+		<item ervalue="v3sp\.p[23]np">4P/v/[</item>
+		<item ervalue="v3sp\.p1np">5P/v/[</item>
+	        <item ervalue="v3si-1\.p1ns">5P/v/[</item>
+		<item ervalue="v3si-1\.p2ns">6P/v/[</item>
+		<item ervalue="v3si-1\.p3ns">3P/v/[</item>
+		<item ervalue="v3si-1\.p[23]np">7P/v/[</item>
+		<item ervalue="v3si-1\.p1np">8P/v/[</item>
+	        <item ervalue="v3pp\.p1ns">4P/v/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/\/t\//</item>
+	</mask>      
+	
+	<mask id="m_ire_std">
+		<info>on rajoute "s" au présent de l'ind</info>
+		<item ervalue="v3ip-1\.p[13]np">4P/s/[</item>
+		<item ervalue="v3ip-1\.p2np">3P/s/[</item>
+	        <item ervalue="v3mp-1\.p1np">4P/s/[</item>
+		<item ervalue="v3mp-1\.p2np">3P/s/[</item>
+	</mask>      
+	<mask id="m_cuire">
+		<info>comme cuire</info>
+		<item ervalue="v3ips-1\.p[123]ns">3P/s/[</item>
+	        <item ervalue="v3ips-1\.p[12]np">5P/s/[</item>
+		<item ervalue="v3ips-1\.p3np">6P/s/[</item>
+	        <item ervalue="v3si-1\.p1ns">5P/s/[</item>
+		<item ervalue="v3si-1\.p2ns">6P/s/[</item>
+		<item ervalue="v3si-1\.p3ns">3P/s/[</item>
+		<item ervalue="v3si-1\.p[23]np">7P/s/[</item>
+		<item ervalue="v3si-1\.p1np">8P/s/[</item>
+	        <item ervalue="v3pp\.p1ns">4P/s/[</item>
+	        <item ervalue="v3pps-1\.p1ns">]S/\/t\//</item>
+	</mask>      
+	<mask id="m_confire">
+		<info>comme confire</info>
+	        <item ervalue="v3ips-1\.p[123]n[sp]">]/\\i\\/[</item>
+                <item ervalue="v3si-1\.p[123]n[sp]">]/\\i\\/[</item>
+		<item ervalue="v3pps-1\.p1ns">]S/\/t\//</item>
+	</mask>      
+	</proteus>

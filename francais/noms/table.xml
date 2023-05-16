@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proteus SYSTEM "table.dtd">
+<proteus>
+	<desc>
+	liste des flexions des noms
+	</desc>
+	<flex id="noms" type="final">
+	    <name>noms</name>
+	    <info>Nc</info>
+		<op type="add">
+			<item value="nom-1"/>
+		</op>
+	</flex>
+</proteus>

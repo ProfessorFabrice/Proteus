@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proteus SYSTEM "table.dtd">
+<proteus>
+	<desc>flexion des noms</desc>
+	<flex id="nom-1" type="term">
+		<name>std</name>
+		<info>standard</info>
+		<flex id="nom1-std">
+			<code>/s/</code>
+		</flex>
+	</flex>
+	<flex id="nom-2" type="term">
+		<name>std</name>
+		<info>standard</info>
+		<flex id="nom2-std">
+			<code>/es/</code>
+		</flex>
+	</flex>
+</proteus>

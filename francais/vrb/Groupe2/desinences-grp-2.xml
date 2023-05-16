@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proteus SYSTEM "table2.dtd">
+<proteus>
+	<desc>
+		conjugaison des verbes du deuxieme groupe à l'indicatif
+	</desc>
+	<flex id="v2ip" type="term">
+		<name>ip</name>
+		<info>verbes indicatif présent</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/is/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/is/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/it/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/issons/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/issez/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/issent/</code>
+		</flex>
+	</flex>
+	<flex id="v2ip-1" type="term">
+		<name>ip</name>
+		<info>verbes indicatif présent</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/ïs/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/ïs/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/ït/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/ïssons/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/ïssez/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/ïssent/</code>
+		</flex>
+	</flex>
+	
+	<flex id="v2ii" type="term">
+		<name>ii</name>
+		<info>verbes indicatif imparfait</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/issais/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/issais/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/issait/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/issions/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/issiez/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/issaient/</code>
+		</flex>
+	</flex>
+	<flex id="v2ii-1" type="term">
+		<name>ii</name>
+		<info>verbes indicatif imparfait</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/ïssais/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/ïssais/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/ïssait/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/ïssions/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/ïssiez/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/ïssaient/</code>
+		</flex>
+	</flex>
+	
+	<flex id="v2ips" type="term">
+		<name>is</name>
+		<info>verbes indicatif passé simple</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/is/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/is/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/it/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/îmes/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/îtes/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/irent/</code>
+		</flex>
+	</flex>
+	<flex id="v2ips-1" type="term">
+		<name>is</name>
+		<info>verbes indicatif passé simple</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/ïs/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/ïs/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/ït/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/ïmes/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/ïtes/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/ïrent/</code>
+		</flex>
+	</flex>
+	
+	<flex id="v2ifs" type="term">
+		<name>if</name>
+		<info>verbes indicatif futur simple</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/irai/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/iras/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/ira/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/irons/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/irez/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/iront/</code>
+		</flex>
+	</flex>
+    <flex id="v2ifs-1" type="term">
+		<name>if</name>
+		<info>verbes indicatif futur simple</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/ïrai/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/ïras/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/ïra/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/ïrons/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/ïrez/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/ïront/</code>
+		</flex>
+	</flex>
+
+	<flex id="v2ic" type="term">
+		<name>ic</name>
+		<info>verbes indicatif conditionnel</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/irais/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/irais/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/irait/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/irions/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/iriez/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/iraient/</code>
+		</flex>
+	</flex>
+	
+	<flex id="v2ic-1" type="term">
+		<name>ic</name>
+		<info>verbes indicatif conditionnel</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/ïrais/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/ïrais/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/ïrait/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/ïrions/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/ïriez/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/ïraient/</code>
+		</flex>
+	</flex>
+	<flex id="v2mp" type="term">
+		<name>mp</name>
+		<info>verbes impératif</info>
+		
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/is/</code>
+		</flex>
+		
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/issons/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/issez/</code>
+		</flex>
+	
+	</flex>
+	<flex id="v2mp-1" type="term">
+		<name>mp</name>
+		<info>verbes impératif</info>
+		
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/ïs/</code>
+		</flex>
+		
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/ïssons/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/ïssez/</code>
+		</flex>
+	
+	</flex>
+	
+	<flex id="v2sp" type="term">
+		<name>sp</name>
+		<info>verbes subjonctif présent</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/isse/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/isses/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/isse/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/issions/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/issiez/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/issent/</code>
+		</flex>
+	</flex>
+	<flex id="v2sp-1" type="term">
+		<name>sp</name>
+		<info>verbes subjonctif présent</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/ïsse/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/ïsses/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/ïsse/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/ïssions/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/ïssiez/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/ïssent/</code>
+		</flex>
+	</flex>
+	
+	<flex id="v2si" type="term">
+		<name>si</name>
+		<info>verbes subjonctif imparfaitt</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/isse/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/isses/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/ît/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/issions/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/issiez/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/issent/</code>
+		</flex>
+	</flex>
+	<flex id="v2si-1" type="term">
+		<name>si</name>
+		<info>verbes subjonctif imparfait</info>
+		<flex id="p1ns">
+			<name>1s-</name>
+			<code>/ïsse/</code>
+		</flex>
+		<flex id="p2ns">
+			<name>2s-</name>
+			<code>/ïsses/</code>
+		</flex>
+		<flex id="p3ns">
+			<name>3s-</name>
+			<code>/ït/</code>
+		</flex>
+		<flex id="p1np">
+			<name>1p-</name>
+			<code>/ïssions/</code>
+		</flex>
+		<flex id="p2np">
+			<name>2p-</name>
+			<code>/ïssiez/</code>
+		</flex>
+		<flex id="p3np">
+			<name>3p-</name>
+			<code>/ïssent/</code>
+		</flex>
+	</flex>
+	<flex id="v2pp" type="term">
+		<info>participe présent</info>
+	    <name>pp</name>
+		<flex id="p1ns">
+	        <name>---</name>
+			<code>/issant/</code>
+		</flex>
+	</flex>
+	<flex id="v2pp-1" type="term">
+		<info>participe présent</info>
+	    <name>pp</name>
+		<flex id="p1ns">
+	        <name>---</name>
+			<code>/ïssant/</code>
+		</flex>
+	</flex>
+	<flex id="v2ps" type="term">
+		<info>participe passé</info>
+	    <name>ps</name>
+		<flex id="p1nsm">
+	        <name>-sm</name>
+			<code>/i/</code>
+		</flex>
+		<flex id="p1nsf">
+	        <name>-sf</name>
+			<code>/ie/</code>
+		</flex>
+		<flex id="p1nsm">
+	        <name>-pm</name>
+			<code>/is/</code>
+		</flex>
+		<flex id="p1nsf">
+	        <name>-sf</name>
+			<code>/ies/</code>
+		</flex>
+	</flex>
+	<flex id="v2ps-1" type="term">
+		<info>participe passé</info>
+	    <name>ps</name>
+		<flex id="p1ns">
+	        <name>--</name>
+		<info>participe passé</info>
+			<code>/ï/</code>
+		</flex>
+	</flex>
+	
+	</proteus>

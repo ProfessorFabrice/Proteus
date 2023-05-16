@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proteus SYSTEM "table.dtd">
+<proteus>
+	<flex id="vg1" type="nonterm">
+		<name>Vm</name>
+		<info>premier groupe</info>
+		<op type="add">
+			<item value="v1ip"/>
+			<item value="v1ii"/>
+			<item value="v1ips"/>
+			<item value="v1ifs"/>
+		    <item value="v1ic"/>
+			<item value="v1mp"/>
+			<item value="v1sp"/>
+			<item value="v1si"/>
+			<item value="v1pp"/>
+			<item value="v1ps"/>
+			</op>
+	</flex>	
+	<flex id="VG1-1" type="final">
+		<name></name>
+		<info>verbe en "er"</info>
+		<op type="mask" value="vg1">
+			<item value="m_std"/>
+		</op>
+	</flex>
+	<flex id="VG1-2" type="final">
+		<name></name>
+		<info>verbe en "ger"</info>
+		<op type="mask" value="vg1">
+			<item value="m_std"/>
+			<item value="m_ger"/>
+		</op>
+	</flex>
+	
+	<flex id="VG1-3" type="final">
+		<name></name>
+		<info>verbe en "cer"</info>
+		<op type="mask" value="vg1">
+			<item value="m_cer"/>
+			<item value="m_std"/>
+		        <item value="m_cer_std"/>
+		</op>
+	</flex>
+	<flex id="VG1-4" type="final">
+		<name></name>
+		<info>verbe en "yer"</info>
+		<op type="mask" value="vg1">
+			<item value="m_yer"/>
+			<item value="m_std"/>
+			<item value="m_yer_std"/>
+		</op>
+	</flex>
+	<flex id="VG1-4-1" type="final">
+		<name></name>
+		<info>verbe en "yer2"</info>
+		<op type="mask" value="vg1">
+			<item value="m_yer2"/>
+			<item value="m_std"/>
+			<item value="m_yer2_std"/>
+		</op>
+	</flex>
+	
+	<flex id="VG1-5" type="final">
+		<name></name>
+		<info>verbe en "éder"</info>
+		<op type="mask" value="vg1">
+			<item value="m_std"/>
+			<item value="m_éder"/>		        
+		</op>
+	</flex>
+	
+	<flex id="VG1-6" type="final">
+		<name></name>
+		<info>verbe en "eter"</info>
+		<op type="mask" value="vg1">
+			<item value="m_std"/>
+			<item value="m_eter"/>
+		</op>
+	</flex>
+	
+	<flex id="VG1-7" type="final">
+		<name></name>
+		<info>verbe en "ser" et "eler"</info>
+		<op type="mask" value="vg1">
+			<item value="m_std"/>
+			<item value="m_ser"/>
+			</op>
+	</flex>
+	<flex id="VG1-8" type="final">
+		<name></name>
+		<info>verbe en "éger"</info>
+		<op type="mask" value="vg1">
+			<item value="m_std"/>
+			<item value="m_éder"/>
+			<item value="m_ger"/>
+			</op>
+	</flex>
+	<mask id="m_ger">
+		<info>comme manger</info>
+		<item ervalue="v1ip\.p1np">4P/e/[</item>
+		<item ervalue="v1ii\.p[123]ns">4P/e/[</item>
+		<item ervalue="v1ii\.p3np">6P/e/[</item>
+	        <item ervalue="v1ips\.p[12]ns">3P/e/[</item>
+	        <item ervalue="v1ips\.p3ns">2P/e/[</item>
+		<item ervalue="v1ips\.p[12]np">5P/e/[</item>
+	        <item ervalue="v1mp\.p1np">4P/e/[</item>
+		<item ervalue="v1si\.p1ns">5P/e/[</item>
+		<item ervalue="v1si\.p2ns">6P/e/[</item>
+		<item ervalue="v1si\.p3ns">3P/e/[</item>
+		<item ervalue="v1si\.p1np">8P/e/[</item>
+		<item ervalue="v1si\.p[23]np">7P/e/[</item>
+		<item ervalue="v1pp\.p1ns">4P/e/[</item>
+		</mask>
+	<mask id="m_std">
+		<info>on enleve "er" a la fin</info>
+		<item ervalue=".">]/\\re\\/[</item>
+     </mask>
+     <mask id="m_cer">
+		<info>comme avancer</info>
+		<item ervalue="v1ip\.p1np">]/\\c\\/D/ç/[</item>
+        <item ervalue="v1ii\.p[123]ns">]/\\c\\/D/ç/[</item>
+		<item ervalue="v1ii\.p3np">]/\\c\\/D/ç/[</item>
+		<item ervalue="v1ips\.p[123]ns">]/\\c\\/D/ç/[</item>
+		<item ervalue="v1ips\.p[12]np">]/\\c\\/D/ç/[</item>
+		<item ervalue="v1mp\.p1np">]/\\c\\/D/ç/[</item>
+		<item ervalue="v1si\.p[123]n[sp]">]/\\c\\/D/ç/[</item>
+		<item ervalue="v1pp\.p1ns">]/\\c\\/D/ç/[</item>
+		</mask>	
+      <mask id="m_cer_std">
+		<info>comme avancer</info>
+		<item ervalue="v1ip\.p1np">]5D2E[</item>
+                <item ervalue="v1ii\.p[123]ns">]5D2E[</item>
+		<item ervalue="v1ii\.p3np">]5D2E[</item>
+		<item ervalue="v1ips\.p[123]ns">]5D2E[</item>
+		<item ervalue="v1ips\.p[12]np">]5D2E[</item>
+		<item ervalue="v1mp\.p1np">]5D2E[</item>
+		<item ervalue="v1si\.p[123]n[sp]">]5D2E[</item>
+		<item ervalue="v1pp\.p1ns">]5D2E[</item>
+		</mask>
+		
+	<mask id="m_yer">
+		<info>comme essuyer</info>
+		<item ervalue="v1ip\.p[123]ns">]/\\y\\/D/i/[</item>
+		<item ervalue="v1ip\.p3np">]/\\y\\/D/i/[</item>
+		<item ervalue="v1ifs\.p[123]n[ps]">]/\\y\\/D/i/[</item>
+		<item ervalue="v1ic\.p[123]n[ps]">]/\\y\\/D/i/[</item>
+		<item ervalue="v1mp\.p2ns">]/\\y\\/D/i/[</item>
+		<item ervalue="v1sp\.p[123]ns">]/\\y\\/D/i/[</item>
+		<item ervalue="v1sp\.p3np">]/\\y\\/D/i/[</item>
+		</mask>
+		
+     <mask id="m_yer_std">
+		<info>comme essuyer</info>
+		<item ervalue="v1ip\.p[123]ns">]5D2E[</item>
+		<item ervalue="v1ip\.p3np">]5D2E[</item>
+		<item ervalue="v1ifs\.p[123]n[ps]">]5D2E[</item>
+		<item ervalue="v1ic\.p[123]n[ps]">]5D2E[</item>
+		<item ervalue="v1mp\.p2ns">]5D2E[</item>
+		<item ervalue="v1sp\.p[123]ns">]5D2E[</item>
+		<item ervalue="v1sp\.p3np">]5D2E[</item>
+		</mask>
+	
+	<mask id="m_éder">
+		<info>comme céder</info>
+		<item ervalue="v1ip\.p[123]ns">]/3P\\é\\\/è\/3D/[</item>
+                <item ervalue="v1ip\.p3np">]/3P\\é\\\/è\/3D/[</item>	
+	        <item ervalue="v1mp\.p2ns">]/3P\\é\\\/è\/3D/[</item>
+		<item ervalue="v1sp\.p[123]ns">]/3P\\é\\\/è\/3D/[</item>
+                <item ervalue="v1sp\.p3np">]/3P\\é\\\/è\/3D/[</item>	
+		</mask>
+	
+	<mask id="m_eter">
+		<info>comme jeter</info>
+		<item ervalue="v1ip\.p[13]ns">2P/t/[</item>
+                <item ervalue="v1ip\.p2ns">3P/t/[</item>
+		<item ervalue="v1ip\.p3np">4P/t/[</item>	
+	        <item ervalue="v1ifs\.p[12]ns">5P/t/[</item>
+                <item ervalue="v1ifs\.p3ns">4P/t/[</item>
+	        <item ervalue="v1ifs\.p[13]np">6P/t/[</item>
+		<item ervalue="v1ifs\.p2np">5P/t/[</item>
+		<item ervalue="v1ic\.p[123]ns">6P/t/[</item>
+                <item ervalue="v1ic\.p1np">7P/t/[</item>
+		<item ervalue="v1ic\.p2np">6P/t/[</item>
+		<item ervalue="v1ic\.p3np">8P/t/[</item>
+		<item ervalue="v1mp\.p2ns">2P/t/[</item>
+		<item ervalue="v1sp\.p[13]ns">2P/t/[</item>
+                <item ervalue="v1sp\.p2ns">3P/t/[</item>
+		<item ervalue="v1sp\.p3np">4P/t/[</item>
+		</mask>
+        <mask id="m_yer2">
+		<info>comme envoyer</info>
+		<item ervalue="v1ip\.p[123]ns">]/\\y\\/D/i/[</item>
+		<item ervalue="v1ip\.p3np">]/\\y\\/D/i/[</item>
+		<item ervalue="v1ifs\.p[123]n[sp]">]/\\y\\\\o\\/2D/r/[</item>
+		<item ervalue="v1ic\.p[123]n[sp]">]/\\y\\\\o\\/2D/r/[</item>
+		<item ervalue="v1mp\.p2ns">]/\\y\\/D/i/[</item>
+		<item ervalue="v1sp\.p[123]ns">]/\\y\\/D/i/[</item>
+		<item ervalue="v1sp\.p3np">]/\\y\\/D/i/[</item>
+		</mask>
+	<mask id="m_yer2_std">
+		<info>comme envoyer</info>
+		<item ervalue="v1ip\.p[123]ns">]5D2E[</item>
+		<item ervalue="v1ip\.p3np">]5D2E[</item>
+		<item ervalue="v1ifs\.p[123]n[sp]">]5D2E3D2E[</item>
+		<item ervalue="v1ic\.p[123]n[sp]">]5D2E3D2E[</item>
+		<item ervalue="v1mp\.p2ns">]5D2E[</item>
+		<item ervalue="v1sp\.p[123]ns">]5D2E[</item>
+		<item ervalue="v1sp\.p3np">]5D2E[</item>
+		</mask>
+	<mask id="m_ser">
+		<info>comme peser</info>
+		<item ervalue="v1ip\.p[123]ns">]/3P\\e\\\/è\/3D/[</item>
+                <item ervalue="v1ip\.p3np">]/3P\\e\\\/è\/3D/[</item>
+		<item ervalue="v1ifs\.p[123]n[sp]">]/3P\\e\\\/è\/3D/[</item>
+	        <item ervalue="v1ic\.p[123]n[sp]">]/3P\\e\\\/è\/3D/[</item>
+		<item ervalue="v1mp\.p2ns">]/3P\\e\\\/è\/3D/[</item>
+		<item ervalue="v1sp\.p[123]ns">]/3P\\e\\\/è\/3D/[</item>
+                <item ervalue="v1sp\.p3np">]/3P\\e\\\/è\/3D/[</item>
+		</mask>
+	
+	</proteus>

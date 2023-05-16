@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proteus SYSTEM "table.dtd">
+<proteus>
+	<flex id="divers" type="term">
+		<name>div</name>
+		<info>truc divers</info>
+		<flex id="pref1-er">
+			<code>/s/</code>
+		</flex>
+	</flex>
+</proteus>

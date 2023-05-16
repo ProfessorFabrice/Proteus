@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proteus SYSTEM "table2.dtd">
+<proteus>
+	<flex id="vg2" type="nonterm">
+		<name>Vm</name>
+		<info>deuxieme groupe</info>
+		<op type="add">
+			<item value="v2ip"/>
+			<item value="v2ii"/>
+			<item value="v2ips"/>
+			<item value="v2ifs"/>
+		    <item value="v2ic"/>
+			<item value="v2mp"/>
+			<item value="v2sp"/>
+			<item value="v2si"/>
+			<item value="v2pp"/>
+			<item value="v2ps"/>
+			</op>
+	</flex>	
+	<flex id="vg2-1" type="nonterm">
+		<name>Vm</name>
+		<info>deuxieme groupe</info>
+		<op type="add">
+			<item value="v2ip-1"/>
+			<item value="v2ii-1"/>
+			<item value="v2ips-1"/>
+			<item value="v2ifs-1"/>
+		    <item value="v2ic-1"/>
+			<item value="v2mp-1"/>
+			<item value="v2sp-1"/>
+			<item value="v2si-1"/>
+			<item value="v2pp-1"/>
+			<item value="v2ps-1"/>
+			</op>
+	</flex>	
+	
+	
+	<flex id="VG2-1" type="final">
+		<name></name>
+		<info>verbe en "ir"</info>
+		<op type="mask" value="vg2">
+			<item value="m_std2"/>
+			
+	</op>
+	</flex>
+	<flex id="VG2-2" type="final">
+		<name></name>
+		<info>verbe en "ïr"</info>
+		<op type="mask" value="vg2-1">
+			<item value="m_hair"/>
+		        <item value="m_std2_1"/>
+			<item value="m_hair_std"/>	
+	</op>
+	</flex>
+	
+	<mask id="m_std2">
+		<info>on enleve "ir" a la fin</info>
+		<item ervalue=".">]/\\ri\\/[</item>
+        </mask>
+	<mask id="m_std2_1">
+		<info>on enleve "ïr" a la fin</info>
+		<item ervalue=".">]/\\rï\\/[</item>
+        </mask>
+	
+	<mask id="m_hair">
+		<info>verbes comme hair</info>
+		<item ervalue="v2ip-1\.p[12]ns">]S/\\ah\\\/hais\//</item>
+                <item ervalue="v2ip-1\.p3ns">]S/\\ah\\\/hait\//</item>
+		<item ervalue="v2mp-1\.p2ns">]S/\\ah\\\/hais\//</item>
+	</mask>
+	<mask id="m_hair_std">
+		
+		<item ervalue="v2ip-1\.p[12]ns">]5D2E[</item>
+                <item ervalue="v2ip-1\.p3ns">]5D2E[</item>
+		<item ervalue="v2mp-1\.p2ns">]5D2E[</item>
+	</mask>
+	</proteus>
