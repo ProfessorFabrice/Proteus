@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proteus SYSTEM "table.dtd">
+<proteus>
+	<desc>
+	liste de prefixes/suffixes
+	</desc>
+	<flex id="prefsuff" type="final">
+	      <name>pref/suff</name>
+	      <info>prefixes</info>
+		<op type="add">
+			<item value="divers"/>
+			<item value="pref-1"/>
+			<item value="suff-1"/>
+		</op>
+	</flex>
+</proteus>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proteus SYSTEM "table.dtd">
+<proteus>
+	<flex id="pref-1" type="term">
+		<name>pref</name>
+		<info>prefixes en "re"</info>
+		<flex id="pref1-er">
+			<code>[/re/]</code>
+		</flex>
+		<flex id="pref1-sur">
+			<code>[/sur/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/anti/]</code>
+		</flex>
+		<flex id="pref1-video">
+			<code>[/vidéo/]</code>
+		</flex>
+		<flex id="pref1-auto">
+			<code>[/auto/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/afro/]</code>
+		</flex>
+		<flex id="pref1-poly">
+			<code>[/poly/]</code>
+		</flex>
+		<flex id="pref1-archi">
+			<code>[/archi/]</code>
+		</flex>
+		<flex id="pref1-agro">
+			<code>[/agro/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/post/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/pré/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/anté/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/amphi/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/circon/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/circum/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/cis/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/co/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/contre/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/contra/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/dis/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/entre/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/épi/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/exo/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/hémi/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/hyper/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/hypo/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/infra/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/contre/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/inter/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/intra/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/intro/]</code>
+		</flex>
+		<flex id="pref1-mal">
+			<code>[/mal/]</code>
+		</flex>
+		<flex id="pref1-meta">
+			<code>[/méta/]</code>
+		</flex>
+		<flex id="pref1-multi">
+			<code>[/multi/]</code>
+		</flex>
+		<flex id="pref1-oleo">
+			<code>[/oléo/]</code>
+		</flex>
+		<flex id="pref1-oleo">
+			<code>[/hyper/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/para/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/post/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/pro/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/rétro/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/sub/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/super/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/supra/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/sus/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/sur/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/trans/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/auto/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/ultra/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/astro/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/aéro/]</code>
+		</flex>
+		<flex id="pref1-chloro">
+			<code>[/chloro/]</code>
+		</flex>
+		<flex id="pref1-chloro">
+			<code>[/électro/]</code>
+		</flex>
+		<flex id="pref1-anti">
+			<code>[/a/]</code>
+		</flex>
+		<flex id="pref1-des">
+			<code>[/dés/]</code>
+		</flex>
+		<flex id="pref1-de">
+			<code>[/dé/]</code>
+		</flex>
+		<flex id="pref1-de">
+			<code>[/di/]</code>
+		</flex>
+	</flex>
+</proteus>
